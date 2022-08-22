@@ -1,18 +1,30 @@
 {
     "BRB" : {
-        "name"    : "Barbar",
-        "tw"      : "die_12",
-        "raenge"  : 4,
-        "skalas"  : {
-            "GAB" : "Schnell",
-            "REF" : "Niedrig",
-            "WIL" : "Niedrig",
-            "ZAE" : "Hoch"
-        },
+        "name"    : "Barbar",   "tw" : "die_12", "raenge"  : 4,
+        "skalas"  : { "GAB" : "Schnell", "REF" : "Niedrig", "WIL" : "Niedrig", "ZAE" : "Hoch" },
         "fertigkeiten" :  [
             "Akrobatik", "Einschüchtern", "Handwerk", "Klettern",
             "MitTierenUmgehen", "Reiten", "Schwimmen", "Überlebenskunst",
             "Wahrnehmung", "Natur"
         ]
+    },
+    "MAG" : {
+        "name" : "Magier", "tw" : "die_6", "raenge" : 1,
+        "skalas" : { "GAB" : "Langsam", "REF" : "Niedrig", "WIL" : "Hoch", "ZAE" : "Niedrig" },
+        "zauber" : { "Attribut" : "IN", "ZauberProTag" : "Vorbereitet", "ZauberBekannt" : "nil" },
+        "fertigkeiten" : [
+            "Akrobatik", "Beruf", "Handwerk", "Schätzen", "Sprachenkunde",
+            "Arkanes", "Baukunst", "DieEbenen", "Geschichte",
+            "Ortschaft", "Natur", "Religion", "Zauberkunde"]
+    },
+    "AKA" : {
+        "name" : "Arkanist", "tw" : "die_6", "raenge" : 2,
+        "skalas" : { "GAB" : "Langsam", "REF" : "Niedrig", "WIL" : "Hoch", "ZAE" : "Niedrig" },
+        "zauber" : { "Zauberattribut" : "IN", "ZauberProTag" : "Vorbereitet", "ZauberBekannt" : "nil" },
+        "fertigkeiten" : [
+            "Beruf", "Fliegen", "Handwerk", "MagischenGegenstandBenutzen", "Schätzen",
+            "Sprachenkunde", "AdelUndKönigshäuser", "Arkanes", "Baukunst",
+            "DieEbenen", "Geografie", "Geschichte", "Gewölbekunde", "Lokales",
+            "Natur", "Religion", "Zauberkunde" ]
     }
 }
