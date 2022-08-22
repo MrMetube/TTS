@@ -1,0 +1,886 @@
+{
+    "Fertigkeiten"          : { 
+        "Normal" : [
+            "Akrobatik", "Bluffen", "Diplomatie", "Einschüchtern", 
+            "Entfesselungskunst", "Fingerfertigkeit", "Fliegen", "Heimlichkeit", 
+            "Klettern", "Magischen Gegenstand Benutzen", "Mechanismus Ausschalten", 
+            "Mit Tieren Umgehen", "Motiv Erkennen", "Reiten", "Schätzen", 
+            "Schwimmen", "Sprachenkunde", "Überlebenskunst", "Verkleiden", 
+            "Wahrnehmung", "Zauberkunde"
+            ],
+        "Wissen" : [
+            "Adel und Königshäuser", "Arkanes", "Baukunst", "Die Ebenen", "Geografie", 
+            "Geschichte", "Gewölbekunde", "Lokales", "Natur", "Religion"
+            ]
+        },
+    "FertigkeitenAttribute" : { 
+        "Normal" : [
+            "GE", "CH", "CH", "CH", "GE", "GE", "GE", "GE", "ST", "CH", "GE",
+            "CH", "WE", "GE", "IN", "ST", "IN", "WE", "CH", "WE", "IN"
+        ],
+        "Wissen" : [ "IN", "IN", "IN", "IN", "IN", "IN", "IN", "IN", "IN", "IN" ]
+        },
+    "GABSkala"              : {
+        "Schnell" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ],
+        "Mittel"  : [ 0, 1, 2, 3, 3, 4, 5, 6, 6,  7,  8,  9,  9, 10, 11, 12, 12, 13, 14, 15 ],
+        "Langsam" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4,  5,  5,  6,  6,  7,  7,  8,  8,  9,  9, 10 ]
+        },
+    "RWSkala"               : {
+        "Niedrig" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5,  5,  5,  6,  6,  6 ],
+        "Hoch"    : [ 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12 ]
+        },
+    "ZauberSkala"           : {
+        "Vorbereitet" : [
+            [ 3, 1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 4, 2, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 4, 2,  1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 4, 3,  2, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 4, 3,  2,  1, -1, -1, -1, -1, -1, -1 ],
+            [ 4, 3,  3,  2, -1, -1, -1, -1, -1, -1 ],
+            [ 4, 4,  3,  2,  1, -1, -1, -1, -1, -1 ],
+            [ 4, 4,  3,  3,  2, -1, -1, -1, -1, -1 ],
+            [ 4, 4,  4,  3,  2,  1, -1, -1, -1, -1 ],
+            [ 4, 4,  4,  3,  3,  2, -1, -1, -1, -1 ],
+            [ 4, 4,  4,  4,  3,  2,  1, -1, -1, -1 ],
+            [ 4, 4,  4,  4,  3,  3,  2, -1, -1, -1 ],
+            [ 4, 4,  4,  4,  4,  3,  2,  1, -1, -1 ],
+            [ 4, 4,  4,  4,  4,  3,  3,  2, -1, -1 ],
+            [ 4, 4,  4,  4,  4,  4,  3,  2,  1, -1 ],
+            [ 4, 4,  4,  4,  4,  4,  3,  3,  2, -1 ],
+            [ 4, 4,  4,  4,  4,  4,  4,  3,  2,  1 ],
+            [ 4, 4,  4,  4,  4,  4,  4,  3,  3,  2 ],
+            [ 4, 4,  4,  4,  4,  4,  4,  4,  3,  3 ],
+            [ 4, 4,  4,  4,  4,  4,  4,  4,  4,  4 ]
+        ],
+        "Spontan" : [
+            [ -1, 3, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 5, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 6,  3, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 6,  4, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 6,  5,  3, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  4, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  5,  3, -1, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  4, -1, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  5,  3, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  4, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  5,  3, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  4, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  5,  3, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  6,  4, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  6,  5,  3, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  6,  6,  4, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  6,  6,  5,  3 ],
+            [ -1, 6,  6,  6,  6,  6,  6,  6,  6,  4 ],
+            [ -1, 6,  6,  6,  6,  6,  6,  6,  6,  6 ]
+        ],
+        "Halb" : [
+            [ -1, 1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 2, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 3, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 3,  1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  2, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  3, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  3,  1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  4,  2, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  4,  3, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  4,  3,  1, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  4,  4,  2, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  4,  3, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  4,  3,  1, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  4,  4,  2, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  4,  3, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  4,  3,  1, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  4,  4,  2, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  5,  4,  3, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  5,  5,  4, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  5,  5,  5, -1, -1, -1 ]
+        ],
+        "Drittel" : [
+            [ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  0, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  1,  0, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  1,  1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  2,  1,  0, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  2,  1,  1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  2,  1,  1,  0, -1, -1, -1, -1, -1 ],
+            [ -1,  2,  2,  1,  1, -1, -1, -1, -1, -1 ],
+            [ -1,  3,  2,  1,  1, -1, -1, -1, -1, -1 ],
+            [ -1,  3,  2,  2,  1, -1, -1, -1, -1, -1 ],
+            [ -1,  3,  2,  2,  1, -1, -1, -1, -1, -1 ],
+            [ -1,  3,  3,  2,  2, -1, -1, -1, -1, -1 ],
+            [ -1,  4,  3,  2,  2, -1, -1, -1, -1, -1 ],
+            [ -1,  4,  3,  3,  2, -1, -1, -1, -1, -1 ],
+            [ -1,  4,  3,  3,  2, -1, -1, -1, -1, -1 ],
+            [ -1,  4,  4,  3,  3, -1, -1, -1, -1, -1 ]
+            ]
+        },
+    "ZauberBekannt"         : {
+        "Voll" :  [
+            [ 4, 2, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 5, 2, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 5, 3, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 3,  1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 4,  2, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 7, 4,  2,  1, -1, -1, -1, -1, -1, -1 ],
+            [ 7, 5,  3,  2, -1, -1, -1, -1, -1, -1 ],
+            [ 8, 5,  3,  2,  1, -1, -1, -1, -1, -1 ],
+            [ 8, 5,  4,  3,  2, -1, -1, -1, -1, -1 ],
+            [ 9, 5,  4,  3,  2,  1, -1, -1, -1, -1 ],
+            [ 9, 5,  5,  4,  3,  2, -1, -1, -1, -1 ],
+            [ 9, 5,  5,  4,  3,  2,  1, -1, -1, -1 ],
+            [ 9, 5,  5,  4,  4,  3,  2, -1, -1, -1 ],
+            [ 9, 5,  5,  4,  4,  3,  2,  1, -1, -1 ],
+            [ 9, 5,  5,  4,  4,  4,  3,  2, -1, -1 ],
+            [ 9, 5,  5,  4,  4,  4,  3,  2,  1, -1 ],
+            [ 9, 5,  5,  4,  4,  4,  3,  3,  2, -1 ],
+            [ 9, 5,  5,  4,  4,  4,  3,  3,  2,  1 ],
+            [ 9, 5,  5,  4,  4,  4,  3,  3,  3,  2 ],
+            [ 9, 5,  5,  4,  4,  4,  3,  3,  3,  3 ]
+            ],
+        "Halb" : [
+            [ 4, 2, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 5, 3, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 4, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 4,  2, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 4,  3, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 4,  4, -1, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 5,  4,  2, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 5,  4,  3, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 5,  4,  4, -1, -1, -1, -1, -1, -1 ],
+            [ 6, 5,  5,  4,  2, -1, -1, -1, -1, -1 ],
+            [ 6, 6,  5,  4,  3, -1, -1, -1, -1, -1 ],
+            [ 6, 6,  5,  4,  4, -1, -1, -1, -1, -1 ],
+            [ 6, 6,  5,  5,  4,  2, -1, -1, -1, -1 ],
+            [ 6, 6,  6,  5,  4,  3, -1, -1, -1, -1 ],
+            [ 6, 6,  6,  5,  4,  4, -1, -1, -1, -1 ],
+            [ 6, 6,  6,  5,  5,  4,  2, -1, -1, -1 ],
+            [ 6, 6,  6,  6,  5,  4,  3, -1, -1, -1 ],
+            [ 6, 6,  6,  6,  5,  4,  4, -1, -1, -1 ],
+            [ 6, 6,  6,  6,  5,  5,  4, -1, -1, -1 ],
+            [ 6, 6,  6,  6,  6,  5,  5, -1, -1, -1 ]
+            ],
+        "Drittel" : [
+            [ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  2, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  3, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  4, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  4,  2, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  4,  3, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  5,  4, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  5,  4,  2, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  5,  4,  3, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  5,  4, -1, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  5,  4,  2, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  5,  4,  3, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  6,  5,  4, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  6,  5,  4, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  6,  5,  4, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  6,  6,  5, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  6,  6,  5, -1, -1, -1, -1, -1 ],
+            [ -1,  6,  6,  6,  5, -1, -1, -1, -1, -1 ]
+            ],
+        "OKK" : [
+            [ -1, 2, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 3, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 3, -1, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 3,  3, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 3,  3, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  4, -1, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  4,  4, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  4,  4, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 4,  4,  4, -1, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  5, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  5, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  5, -1, -1, -1, -1, -1 ],
+            [ -1, 5,  5,  5,  5,  5, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6, -1, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  6, -1, -1, -1 ],
+            [ -1, 6,  6,  6,  6,  6,  6, -1, -1, -1 ],
+            [ -1, 7,  7,  7,  7,  7,  7, -1, -1, -1 ],
+            [ -1, 7,  7,  7,  7,  7,  7, -1, -1, -1 ],
+            [ -1, 7,  7,  7,  7,  7,  7, -1, -1, -1 ]
+            ]
+        },
+    "BonusZauber"           : [
+        [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        [ 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        [ 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 ],
+        [ 0, 1, 1, 1, 0, 0, 0, 0, 0, 0 ],
+        [ 0, 1, 1, 1, 1, 0, 0, 0, 0, 0 ],
+        [ 0, 2, 1, 1, 1, 1, 0, 0, 0, 0 ],
+        [ 0, 2, 2, 1, 1, 1, 1, 0, 0, 0 ],
+        [ 0, 2, 2, 2, 1, 1, 1, 1, 0, 0 ],
+        [ 0, 2, 2, 2, 2, 1, 1, 1, 1, 0 ],
+        [ 0, 3, 2, 2, 2, 2, 1, 1, 1, 1 ],
+        [ 0, 3, 3, 2, 2, 2, 2, 1, 1, 1 ],
+        [ 0, 3, 3, 3, 2, 2, 2, 2, 1, 1 ],
+        [ 0, 3, 3, 3, 3, 2, 2, 2, 2, 1 ],
+        [ 0, 4, 3, 3, 3, 3, 2, 2, 2, 2 ],
+        [ 0, 4, 4, 3, 3, 3, 3, 2, 2, 2 ],
+        [ 0, 4, 4, 4, 3, 3, 3, 3, 2, 2 ],
+        [ 0, 4, 4, 4, 4, 3, 3, 3, 3, 2 ],
+        [ 0, 5, 4, 4, 4, 4, 3, 3, 3, 3 ]
+        ],
+    "Lasten"                : [ 
+         10,  20,  30,  40,  50,  60,   70,   80,   90,  100,
+        115, 130, 150, 175, 200, 230,  260,  300,  350,  400,
+        460, 520, 600, 700, 800, 920, 1040, 1200, 1400, 1600],
+    "GroessenMods"          : {
+        "mini" : 8, "winzig" : 4, "sehr klein" : 2,
+        "klein" : 1, "mittelgroß" : 0, "groß" : -1,
+        "riesig" : -2, "gigantisch" : -4, "kolossal" : -8 },
+
+    "BRB" : {
+        "Name"                : "Barbar",
+        "TW"                  : "12",
+        "Raenge"              : 4,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Einschüchtern", "Handwerk", "Klettern",
+            "MitTierenUmgehen", "Reiten", "Schwimmen", "Überlebenskunst",
+            "Wahrnehmung", "Natur"
+        ]
+        },
+    "BAR" : {
+        "Name"                : "Barde",
+        "TW"                  : "8",
+        "Raenge"              : 6,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Auftreten", "Beruf", "Bluffen", "Diplomatie", "Einschüchtern",
+            "Entfesselungskunst", "Fingerfertigkeit", "Handwerk", "Heimlichkeit",
+            "Klettern", "MagischenGegenstandBenutzen", "MotivErkennen",
+            "Schätzen", "Sprachenkunde", "Verkleiden", "Wahrnehmung", "AdelUndKönigshäuser",
+            "Arkanes", "Baukunst", "DieEbenen", "Geografie", "Geschichte", "Gewölbekunde",
+            "Lokales", "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+    "DRU" : {
+        "Name"                : "Druide",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Vorbereitet",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Fliegen", "Handwerk", "Heilkunde", "Klettern", "MitTierenUmgehen",
+            "Reiten", "Schwimmen", "Wahrnehmung", "Geographie", "Natur", "Überlebenskunst",
+            "Zauberkunde"
+        ]
+        },
+    "HXM" : {
+        "Name"                : "Hexenmeister",
+        "TW"                  : "6",
+        "Raenge"              : 2,
+        "GAB"                 : "Langsam",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Spontan",
+        "ZauberBekannt"       : "Voll",
+        "Fertigkeiten"        : [
+            "Beruf", "Bluffen", "Einschüchtern", "Fliegen", "Handwerk",
+            "MagischenGegenstandBenutzen", "Schätzen", "Arkanes", "Zauberkunde"
+        ]
+        },
+    "KÄM" : {
+        "Name"                : "Kämpfer",
+        "TW"                  : "10",
+        "Raenge"              : 2,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Einschüchtern", "Handwerk", "Klettern", "MitTierenUmgehen", "Reiten",
+            "Schwimmen", "Überlebenskunst", "Baukunst", "Gewölbekunde"
+        ]
+        },
+    "KLE" : {
+        "Name"                : "Kleriker",
+        "TW"                  : "8",
+        "Raenge"              : 2,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Vorbereitet",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Diplomatie", "Handwerk", "Heilkunde", "MotivErkennen", "Schätzen",
+            "Sprachenkunde", "AdelUndKönigshäuser", "Arkanes", "Geschichte",
+            "DieEbenen", "Religion", "Zauberkunde"
+        ]
+        },
+    "MAG" : {
+        "Name"                : "Magier",
+        "TW"                  : "6",
+        "Raenge"              : 2,
+        "GAB"                 : "Langsam",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Vorbereitet",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Fliegen", "Handwerk", "Schätzen", "Sprachenkunde", "AdelUndKönigshäuser",
+            "Arkanes", "Baukunst", "DieEbenen", "Geografie", "Geschichte", "Gewölbekunde",
+            "Lokales", "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+    "MÖN" : {
+        "Name"                : "Mönch",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Auftreten", "Beruf", "Einschüchtern", "Entfesselungskunst",
+            "Handwerk", "Heimlichkeit", "Klettern", "MotivErkennen", "Reiten", "Schwimmen",
+            "Wahrnehmung", "Geschichte", "Religion"
+        ]
+        },
+    "PAL" : {
+        "Name"                : "Paladin",
+        "TW"                  : "10",
+        "Raenge"              : 2,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Drittel",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Diplomatie", "Handwerk", "Heilkunde", "MitTierenUmgehen",
+            "MotivErkennen", "Reiten", "AdelUndKönigshäuser", "Religion", "Zauberkunde"
+        ]
+        },
+    "SRK" : {
+        "Name"                : "Schurke",
+        "TW"                  : "8",
+        "Raenge"              : 8,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Auftreten", "Beruf", "Bluffen", "Diplomatie", "Einschüchtern",
+            "Entfesselungskunst", "Fingerfertigkeit", "Handwerk", "Heimlichkeit",
+            "Klettern", "MagischenGegenstandBenutzen", "MechanismusAusschalten",
+            "MotivErkennen", "Schätzen", "Schwimmen", "Sprachenkunde", "Verkleiden",
+            "Wahrnehmung", "Gewölbekunde", "Lokales"
+        ]
+        },
+    "WAL" : {
+        "Name"                : "Waldläufer",
+        "TW"                  : "10",
+        "Raenge"              : 6,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Drittel",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Einschüchtern", "Handwerk", "Heilkunde", "Heimlichkeit", "Klettern",
+            "MitTierenUmgehen", "Reiten", "Schwimmen", "Überlebenskunst",
+            "Wahrnehmung", "Geographie", "Gewölbekunde", "Natur", "Zauberkunde"
+        ]
+        },
+
+    "ALC" : {
+        "Name"                : "Alchemist",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Fingerfertigkeit", "Fliegen", "Handwerk", "Heilkunde",
+            "MagischenGegenstandBenutzen", "MechanismusAusschalten", "Schätzen",
+            "Überlebenskunst", "Wahrnehmung", "Arkanes", "Natur", "Zauberkunde"
+        ]
+        },
+    "HEX" : {
+        "Name"                : "Hexe",
+        "TW"                  : "6",
+        "Raenge"              : 2,
+        "GAB"                 : "Langsam",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Vorbereitet",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Einschüchtern", "Fliegen", "Handwerk", "Heilkunde",
+            "MagischenGegenstandBenutzen", "Arkanes", "DieEbenen", "Geschichte",
+            "Natur", "Zauberkunde"
+        ]
+        },
+    "INQ" : {
+        "Name"                : "Inquisitor",
+        "TW"                  : "8",
+        "Raenge"              : 6,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Beruf", "Bluffen", "Diplomatie", "Einschüchtern", "Handwerk", "Heilkunde",
+            "Heimlichkeit", "Klettern", "MotivErkennen", "Reiten", "Schwimmen",
+            "Überlebenskunst", "Verkleiden", "Wahrnehmung", "Arkanes", "DieEbenen",
+            "Gewölbekunde", "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+    "MYS" : {
+        "Name"                : "Mystiker",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Voll",
+        "Fertigkeiten"        : [
+            "Beruf", "Diplomatie", "Handwerk", "Heilkunde", "MotivErkennen",
+            "DieEbenen", "Geschichte", "Religion", "Zauberkunde"
+        ]
+        },
+    "PKM" : {
+        "Name"                : "Paktmagier",
+        "TW"                  : "8",
+        "Raenge"              : 2,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Beruf", "Fliegen", "Handwerk", "MagischenGegenstandBenutzen",
+            "MitTierenUmgehen", "Reiten", "Sprachenkunde", "AdelUndKönigshäuser",
+            "Arkanes", "Baukunst", "DieEbenen", "Geografie", "Geschichte",
+            "Gewölbekunde", "Lokales", "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+    "RIT" : {
+        "Name"                : "Ritter",
+        "TW"                  : "10",
+        "Raenge"              : 4,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Bluffen", "Diplomatie", "Einschüchtern", "Handwerk",
+            "Klettern", "MitTierenUmgehen", "MotivErkennen", "Reiten", "Schwimmen"
+        ]
+        },
+
+    "KAM" : {
+        "Name"                : "Kampfmagus",
+        "TW"                  : "8",
+        "Raenge"              : 2,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Einschüchtern", "Fliegen", "Handwerk", "Klettern",
+            "MagischenGegenstandBenutzen", "Reiten", "Schwimmen", "Arkanes",
+            "DieEbenen", "Gewölbekunde", "Zauberkunde"
+        ]
+        },
+
+    "STZ" : {
+        "Name"                : "Schütze",
+        "TW"                  : "10",
+        "Raenge"              : 4,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Beruf", "Bluffen", "Einschüchtern", "Fingerfertigkeit",
+            "Handwerk", "Heilkunde", "Klettern", "MitTierenUmgehen", "Reiten",
+            "Schwimmen", "Überlebenskunst", "Wahrnehmung", "Baukunst", "Lokales"
+        ]
+        },
+    "NIN" : {
+        "Name"                : "Ninja",
+        "TW"                  : "8",
+        "Raenge"              : 8,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Auftreten", "Beruf", "Bluffen", "Diplomatie",
+            "Einschüchtern", "Entfesselungskunst", "Fingerfertigkeit",
+            "Handwerk", "Heimlichkeit", "Klettern", "MagischenGegenstandBenutzen",
+            "MechanismusAusschalten", "MotivErkennen", "Schätzen", "Schwimmen",
+            "Sprachenkunde", "Verkleiden", "Wahrnehmung", "AdelUndKönigshäuser", "Lokales"
+        ]
+        },
+    "SAM" : {
+        "Name"                : "Samurai",
+        "TW"                  : "10",
+        "Raenge"              : 4,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Bluffen", "Diplomatie", "Einschüchtern", "Handwerk", "Klettern",
+            "MitTierenUmgehen", "MotivErkennen", "Reiten", "Schwimmen"
+        ]
+        },
+
+    "AKA" : {
+        "Name"                : "Arkanist",
+        "TW"                  : "6",
+        "Raenge"              : 2,
+        "GAB"                 : "Langsam",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Vorbereitet",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Fliegen", "Handwerk", "MagischenGegenstandBenutzen", "Schätzen",
+            "Sprachenkunde", "AdelUndKönigshäuser", "Arkanes", "Baukunst",
+            "DieEbenen", "Geografie", "Geschichte", "Gewölbekunde", "Lokales",
+            "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+    "ATT" : {
+        "Name"                : "Attentäter",
+        "TW"                  : "10",
+        "Raenge"              : 6,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Beruf", "Bluffen", "Einschüchtern", "Handwerk", "Heilkunde",
+            "Heimlichkeit", "Klettern", "MotivErkennen", "Reiten", "Schwimmen",
+            "Überlebenskunst", "Verkleiden", "Wahrnehmung", "Geographie",
+            "Gewölbekunde", "Lokales"
+        ]
+        },
+    "BLU" : {
+        "Name"                : "Blutwüter",
+        "TW"                  : "10",
+        "Raenge"              : 4,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Drittel",
+        "ZauberBekannt"       : "Drittel",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Einschüchtern", "Handwerk", "Klettern", "MitTierenUmgehen",
+            "Reiten", "Schwimmen", "Überlebenskunst", "Wahrnehmung", "Arkanes", "Zauberkunde"
+        ]
+        },
+    "DRA" : {
+        "Name"                : "Draufgänger",
+        "TW"                  : "10",
+        "Raenge"              : 4,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Auftreten", "Beruf", "Bluffen", "Diplomatie",
+            "Einschüchtern", "Entfesselungskunst", "Fingerfertigkeit", "Handwerk",
+            "Klettern", "MotivErkennen", "Reiten", "Schwimmen", "Wahrnehmung",
+            "AdelUndKönigshäuser", "Lokales"
+        ]
+        },
+    "ERM" : {
+        "Name"                : "Ermittler",
+        "TW"                  : "8",
+        "Raenge"              : 6,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Auftreten", "Beruf", "Bluffen", "Diplomatie", "Einschüchtern",
+            "Entfesselungskunst", "Fingerfertigkeit", "Handwerk", "Heilkunde",
+            "Heimlichkeit", "Klettern", "MagischenGegenstandBenutzen",
+            "MechanismusAusschalten", "MotivErkennen", "Schätzen", "Sprachenkunde",
+            "Verkleiden", "Wahrnehmung", "AdelUndKönigshäuser", "Arkanes",
+            "Baukunst", "DieEbenen", "Geografie", "Geschichte", "Gewölbekunde",
+            "Lokales", "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+    "JAE" : {
+        "Name"                : "Jäger",
+        "TW"                  : "8",
+        "Raenge"              : 6,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Beruf", "Einschüchtern", "Handwerk", "Heilkunde", "Heimlichkeit",
+            "Klettern", "MitTierenUmgehen", "Reiten", "Schwimmen", "Überlebenskunst",
+            "Wahrnehmung", "Geographie", "Gewölbekunde", "Natur", "Zauberkunde"
+        ]
+        },
+    "KRE" : {
+        "Name"                : "Kriegspriester",
+        "TW"                  : "8",
+        "Raenge"              : 2,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Diplomatie", "Einschüchtern", "Heilkunde", "Klettern",
+            "MitTierenUmgehen", "MotivErkennen", "Reiten", "Schwimmen",
+            "Überlebenskunst", "Baukunst", "Religion", "Zauberkunde"
+        ]
+        },
+    "RAU" : {
+        "Name"                : "Raufbold",
+        "TW"                  : "10",
+        "Raenge"              : 4,
+        "GAB"                 : "Schnell",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Beruf", "Einschüchtern", "Entfesselungskunst", "Handwerk",
+            "Klettern", "MitTierenUmgehen", "MotivErkennen", "Reiten", "Schwimmen",
+            "Wahrnehmung", "Gewölbekunde", "Lokales"
+        ]
+        },
+    "SHA" : {
+        "Name"                : "Schamane",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Vorbereitet",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Beruf", "Diplomatie", "Fliegen", "Handwerk", "Heilkunde", "MitTierenUmgehen",
+            "Reiten", "Überlebenskunst", "DieEbenen", "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+    "SKA" : {
+        "Name"                : "Skalde",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Auftreten", "Beruf", "Bluffen", "Diplomatie", "Einschüchtern",
+            "Entfesselungskunst", "Handwerk", "Klettern", "MagischenGegenstandBenutzen",
+            "MitTierenUmgehen", "MotivErkennen", "Reiten", "Schätzen", "Schwimmen",
+            "Sprachenkunde", "Wahrnehmung", "AdelUndKönigshäuser", "Arkanes",
+            "Baukunst", "DieEbenen", "Geografie", "Geschichte", "Gewölbekunde",
+            "Lokales", "Natur", "Religion", "Zauberkunde"
+        ]
+        },
+
+    "KIN" : {
+        "Name"                : "Kinetiker",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Niedrig",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "nil",
+        "ZauberProTag"        : "nil",
+        "ZauberBekannt"       : "nil",
+        "Fertigkeiten"        : [
+            "Akrobatik", "Beruf", "Einschüchtern", "Handwerk", "Heilkunde", "Heimlichkeit",
+            "MagischenGegenstandBenutzen", "Wahrnehmung"
+        ]
+        },
+    "MED" : {
+        "Name"                : "Medium",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Drittel",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Auftreten", "Beruf", "Bluffen", "Diplomatie", "Einschüchtern", "Fliegen",
+            "Handwerk", "Heilkunde", "MagischenGegenstandBenutzen", "MotivErkennen",
+            "Sprachenkunde", "Wahrnehmung", "Arkanes", "DieEbenen", "Religion", "Zauberkunde"
+        ]
+        },
+    "MEN" : {
+        "Name"                : "Mentalist",
+        "TW"                  : "6",
+        "Raenge"              : 2,
+        "GAB"                 : "Langsam",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Spontan",
+        "ZauberBekannt"       : "Voll",
+        "Fertigkeiten"        : [
+        ]
+        },
+    "MES" : {
+        "Name"                : "Mesmerist",
+        "TW"                  : "8",
+        "Raenge"              : 6,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Hoch",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Niedrig",
+        "Zauberattribut"      : "CH",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Auftreten", "Beruf", "Bluffen", "Diplomatie", "Einschüchtern",
+            "Entfesselungskunst", "Handwerk", "Fingerfertigkeit", "Heimlichkeit",
+            "MagischenGegenstandBenutzen", "MotivErkennen", "Schätzen",
+            "Sprachenkunde", "Verkleiden", "Wahrnehmung", "AdelUndKönigshäuser",
+            "Arkanes", "Geschichte", "Gewölbekunde", "Lokales", "Religion", "Zauberkunde"
+        ]
+        },
+    "OKK" : {
+        "Name"                : "Okkultist",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "IN",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "OKK",
+        "Fertigkeiten"        : [
+            "Beruf", "Diplomatie", "Fingerfertigkeit", "Fliegen", "Handwerk",
+            "MagischenGegenstandBenutzen", "MechanismusAusschalten",
+            "MotivErkennen", "Schätzen", "Sprachenkunde", "Verkleiden", "Wahrnehmung",
+            "Arkanes", "Baukunst", "DieEbenen", "Geschichte", "Religion", "Zauberkunde"
+        ]
+        },
+    "SPI" : {
+        "Name"                : "Spiritist",
+        "TW"                  : "8",
+        "Raenge"              : 4,
+        "GAB"                 : "Mittel",
+        "REF"                 : "Niedrig",
+        "WIL"                 : "Hoch",
+        "ZAE"                 : "Hoch",
+        "Zauberattribut"      : "WE",
+        "ZauberProTag"        : "Halb",
+        "ZauberBekannt"       : "Halb",
+        "Fertigkeiten"        : [
+            "Beruf", "Bluffen", "Einschüchtern", "Handwerk", "Fliegen", "Heilkunde",
+            "MagischenGegenstandBenutzen", "MotivErkennen", "Sprachenkunde",
+            "AdelUndKönigshäuser", "Arkanes", "Baukunst", "DieEbenen", "Geografie",
+            "Geschichte", "Gewölbekunde", "Lokales", "Natur", "Religion", "Zauberkunde"
+        ]
+        }
+}
