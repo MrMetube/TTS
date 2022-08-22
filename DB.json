@@ -1,20 +1,18 @@
 {
-  "BRB" = 
-  {
-    "name"    = "Barbar",
-    "tw"      = "die_12",
-    "raenge"  = 4,
-    "skalas   " 
-    {
-      "GAB" = "Schnell",
-      "REF" = "Niedrig",
-      "WIL" = "Niedrig",
-      "ZAE" = "Hoch"
-    },
-    "fertigkeiten" = {
-      "Akrobatik", "Einschüchtern", "Handwerk", "Klettern",
-      "MitTierenUmgehen", "Reiten", "Schwimmen", "Überlebenskunst",
-      "Wahrnehmung", "Natur"
+    "BRB" : {
+        "name"    : "Barbar",
+        "tw"      : "die_12",
+        "raenge"  : 4,
+        "skalas"  : {
+            "GAB" : "Schnell",
+            "REF" : "Niedrig",
+            "WIL" : "Niedrig",
+            "ZAE" : "Hoch"
+        },
+        "fertigkeiten" :  [
+            "Akrobatik", "Einschüchtern", "Handwerk", "Klettern",
+            "MitTierenUmgehen", "Reiten", "Schwimmen", "Überlebenskunst",
+            "Wahrnehmung", "Natur"
+        ]
     }
-  },
 }
