@@ -1,8 +1,8 @@
 # TTS  
 DB  
 ├ General  
-├ ├ Scalas  
-├ └ Skills  
+│ ├ Scalas  
+│ └ Skills  
 ├ Classes  
 ├ Weapons  
 ├ Armor  
