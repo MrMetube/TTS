@@ -1,0 +1,48 @@
+{
+    "Fertigkeiten"          : { 
+        "Normal" : {
+            "Akrobatik"                     : "GE",
+            "Bluffen"                       : "CH",
+            "Diplomatie"                    : "CH",
+            "Einschüchtern"                 : "CH",
+            "Entfesselungskunst"            : "GE",
+            "Fingerfertigkeit"              : "GE",
+            "Fliegen"                       : "GE",
+            "Heimlichkeit"                  : "GE",
+            "Klettern"                      : "ST",
+            "Magischen Gegenstand Benutzen" : "CH",
+            "Mechanismus Ausschalten"       : "GE",
+            "Mit Tieren Umgehen"            : "CH",
+            "Motiv Erkennen"                : "WE",
+            "Reiten"                        : "GE",
+            "Schätzen"                      : "IN",
+            "Schwimmen"                     : "ST",
+            "Sprachenkunde"                 : "IN",
+            "Überlebenskunst"               : "WE",
+            "Verkleiden"                    : "CH",
+            "Wahrnehmung"                   : "WE",
+            "Zauberkunde"                   : "IN"
+            },
+        "Wissen" : [
+            "Adel und Königshäuser", "Arkanes", "Baukunst", "Die Ebenen", "Geografie", 
+            "Geschichte", "Gewölbekunde", "Lokales", "Natur", "Religion"
+            ]
+        },
+    "GABSkala"              : {
+        "Schnell" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ],
+        "Mittel"  : [ 0, 1, 2, 3, 3, 4, 5, 6, 6,  7,  8,  9,  9, 10, 11, 12, 12, 13, 14, 15 ],
+        "Langsam" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4,  5,  5,  6,  6,  7,  7,  8,  8,  9,  9, 10 ]
+        },
+    "RWSkala"               : {
+        "Niedrig" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5,  5,  5,  6,  6,  6 ],
+        "Hoch"    : [ 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12 ]
+        },
+    "Lasten"                : [ 
+        10,  20,  30,  40,  50,  60,   70,   80,   90,  100,
+        115, 130, 150, 175, 200, 230,  260,  300,  350,  400,
+        460, 520, 600, 700, 800, 920, 1040, 1200, 1400, 1600],
+    "GroessenMods"          : {
+        "mini" : 8, "winzig" : 4, "sehr klein" : 2,
+        "klein" : 1, "mittelgroß" : 0, "groß" : -1,
+        "riesig" : -2, "gigantisch" : -4, "kolossal" : -8 }
+}
