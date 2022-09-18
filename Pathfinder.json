@@ -906,9 +906,9 @@
                     "Schaden (M)": "1W3",
                     "Kritischer Treffer": "x2",
                     "Grundreichweite": "-",
-                    "Gewicht": "W",
-                    "Art": "Nicht tödlich",
-                    "Speziell": ""
+                    "Gewicht":"0 Pfd.",
+                    "Art": "W",
+                    "Speziell": "Nicht tödlich"
                 }
             ],
             "Leichte Waffen": [
