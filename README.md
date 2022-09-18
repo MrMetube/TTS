@@ -1,7 +1,9 @@
 # TTS  
-DB  
-├Equip:    Rüstung, Schilde  
-├Weapons:  Waffen  
-├Feats:    Talente  
-├Classes:  Klassen  
-└Skills:   Fertigkeiten  
+DB
+├ General
+├ ├ Scalas
+├ └ Skills
+├ Classes  
+├ Weapons  
+├ Armor
+└ Feats
