@@ -6,8 +6,8 @@
                     "Schaden": "1W3",
                     "Kritischer Treffer": "x2",
                     "Grundreichweite": "-",
-                    "Gewicht": "W",
-                    "Art": "Nicht tödlich"
+                    "Art": "W",
+                    "Speziell": "Nicht tödlich"
                 }
             ],
             "Leichte Waffen": [
