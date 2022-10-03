@@ -283,7 +283,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -2,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 6
  },
  {
@@ -291,7 +291,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -2,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 7
  },
  {
@@ -299,7 +299,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -1,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 6
  },
  {
@@ -307,7 +307,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -1,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 5
  },
  {
@@ -315,7 +315,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -1,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 6
  },
  {
@@ -323,7 +323,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -2,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 5
  },
  {
@@ -331,7 +331,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -2,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 6
  },
  {
@@ -339,7 +339,7 @@
   "Schildbonus": 1,
   "Max GE": "-",
   "Rüstungsmalus": -1,
-  "Zauberpatzer": 0.05,
+  "Zauberpatzer": 5,
   "Gewicht": 5
  },
  {
@@ -347,7 +347,7 @@
   "Schildbonus": 2,
   "Max GE": "-",
   "Rüstungsmalus": -2,
-  "Zauberpatzer": 0.15,
+  "Zauberpatzer": 15,
   "Gewicht": 10
  },
  {
@@ -355,7 +355,7 @@
   "Schildbonus": 2,
   "Max GE": "-",
   "Rüstungsmalus": -2,
-  "Zauberpatzer": 0.15,
+  "Zauberpatzer": 15,
   "Gewicht": 15
  },
  {
@@ -363,7 +363,7 @@
   "Schildbonus": 4,
   "Max GE": 2,
   "Rüstungsmalus": -10,
-  "Zauberpatzer": 0.5,
+  "Zauberpatzer": 50,
   "Gewicht": 45
  }
 ]
