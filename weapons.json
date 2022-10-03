@@ -1,2241 +1,1847 @@
 {
-    "Einfache Waffen":{
-        "Waffenlose Angriffe": [
-            {
-                "Name": "Waffenloser Schlag",
-                "Preis": "-",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "0 Pfd.",
-                "Art": "W",
-                "Speziell": "Nicht tödlich"
-            }
-        ],
-        "Leichte Waffen": [
-            {
-                "Name": "Caestus",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "W oder S",
-                "Speziell": "Mönch, siehe Text"
-            },
-            {
-                "Name": "Dolch",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "1 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Holzpflock",
-                "Preis": "-",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichter Streitkolben",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Panzerhandschuh",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schlagring",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "W",
-                "Speziell": "Mönch, siehe Text"
-            },
-            {
-                "Name": "Sichel",
-                "Preis": "6 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "Zu Fall bringen"
-            },
-            {
-                "Name": "Stachelhandschuh",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Stoßdolch",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Streitsprengel",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "W",
-                "Speziell": "siehe Text"
-            }
-        ],
-        "Einhandwaffen": [
-            {
-                "Name": "Keule",
-                "Preis": "-",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kurzspeer",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "6 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Miri-Keule",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "S oder W",
-                "Speziell": "Zerbrechlich"
-            },
-            {
-                "Name": "Morgenstern",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schwerer Streitkolben",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            }
-        ],
-        "Zweihandwaffen": [
-            {
-                "Name": "Bajonett",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kampfstab",
-                "Preis": "-",
-                "Schaden (K)": "1W4/1W4",
-                "Schaden (M)": "1W6/1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "W",
-                "Speziell": "Doppel, Mönch"
-            },
-            {
-                "Name": "Langspeer",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "9 Pfd.",
-                "Art": "S",
-                "Speziell": "Abwehr, Reichweite"
-            },
-            {
-                "Name": "Saufeder",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "S",
-                "Speziell": "Abwehr, siehe Text"
-            },
-            {
-                "Name": "Speer",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "6 m",
-                "Gewicht": "6 Pfd.",
-                "Art": "S",
-                "Speziell": "Abwehr"
-            }
-        ],
-        "Fernkampfwaffen": [
-            {
-                "Name": "Blasrohr",
-                "Preis": "2 GM",
-                "Schaden (K)": "1",
-                "Schaden (M)": "1W2",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "6 m",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichte Armbrust",
-                "Preis": "35 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "24 m",
-                "Gewicht": "4 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichte Unterwasserarmbrust",
-                "Preis": "70 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "24 m",
-                "Gewicht": "4 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schleuder",
-                "Preis": "-",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "15 m",
-                "Gewicht": "0 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schwere Armbrust",
-                "Preis": "50 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "36 m",
-                "Gewicht": "8 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schwere Unterwasserarmbrust",
-                "Preis": "100 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "36 m",
-                "Gewicht": "8 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Wurfpfeil",
-                "Preis": "5 SM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "6 m",
-                "Gewicht": "1/2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Wurfspeer",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "9 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            }
-        ]
-    },
-    "Kriegswaffen":{
-        "Leichte Waffen": [
-            {
-                "Name": "Beil",
-                "Preis": "6 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Eisenpinsel",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "-",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Gladius",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Hundeschnitter",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "H",
-                "Speziell": "Zerbrechlich*"
-            },
-            {
-                "Name": "Jutte",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1. Pfd.",
-                "Art": "W",
-                "Speziell": "Entwaffnen, Mönch"
-            },
-            {
-                "Name": "Kerambit",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "S",
-                "Art": "-"
-            },
-            {
-                "Name": "Kukri",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "18-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kurzschwert",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichter Hammer",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "6 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichter Schild",
-                "Preis": "Speziell",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "Speziell",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichter Stachelschild",
-                "Preis": "Speziell",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "Speziell",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichter Streithammer",
-                "Preis": "4 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x4",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Lungchuan Tamo",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "1 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Mönch"
-            },
-            {
-                "Name": "Rüstungsstacheln",
-                "Preis": "Speziell",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "Speziell",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schang Gou",
-                "Preis": "6 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "H",
-                "Speziell": "Entwaffnen oder Zu-Fall-bringen (siehe Beschreibung), Mönch"
-            },
-            {
-                "Name": "Schmetterlingsschwert (2)",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "H",
-                "Speziell": "Mönch"
-            },
-            {
-                "Name": "Sternmesser",
-                "Preis": "24 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "6 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Tonfa",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "W",
-                "Speziell": "Blockierend, Mönch"
-            },
-            {
-                "Name": "Totschläger",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "W",
-                "Speziell": "Nicht tödlich"
-            },
-            {
-                "Name": "Wurfaxt",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Wuschu-Wurfpfeil (5)",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "-",
-                "Art": "S",
-                "Speziell": "Mönch"
-            }
-        ],
-        "Einhandwaffen": [
-            {
-                "Name": "Doppelhühnersäbel",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "H",
-                "Speziell": "Entwaffnen, Mönch"
-            },
-            {
-                "Name": "Dreizack",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "4 Pfd.",
-                "Art": "S",
-                "Speziell": "Abwehr"
-            },
-            {
-                "Name": "Klar",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "H",
-                "Speziell": "siehe Text"
-            },
-            {
-                "Name": "Kriegshammer",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "5 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Krummsäbel",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "18-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Leichter Streitflegel",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "5 Pfd.",
-                "Art": "W",
-                "Speziell": "Entwaffnen, Zu Fall bringen"
-            },
-            {
-                "Name": "Langschwert",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Neunringbreitschwert",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "H",
-                "Speziell": "Mönch"
-            },
-            {
-                "Name": "Rapier",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "18-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schwerer Schild",
-                "Preis": "Speziell",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "Speziell",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schwerer Stachelschild",
-                "Preis": "Speziell",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "Speziell",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schwerer Streithammer",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x4",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Scizore",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Sibat",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "3 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "siehe Beschreibung"
-            },
-            {
-                "Name": "Stockdegen",
-                "Preis": "45 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Streitaxt",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Terbutje",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "Zerbrechlich"
-            }
-        ],
-        "Zweihandwaffen": [
-            {
-                "Name": "Bardiche",
-                "Preis": "13 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "14 Pfd.",
-                "Art": "H",
-                "Speziell": "Abwehr, Reichweite, siehe Text"
-            },
-            {
-                "Name": "Dreispitzendoppelklingenschwert",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "14 Pfd.",
-                "Art": "S",
-                "Speziell": "Reichweite"
-            },
-            {
-                "Name": "Erdspalter",
-                "Preis": "40 GM",
-                "Schaden (K)": "1W10",
-                "Schaden (M)": "2W6",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "14 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Glefe",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "H",
-                "Speziell": "Reichweite"
-            },
-            {
-                "Name": "Glefe-Guisarme",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "H",
-                "Speziell": "Abwehr, Reichweite, siehe Text"
-            },
-            {
-                "Name": "Guisarme",
-                "Preis": "9 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "2W4",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "H",
-                "Speziell": "Reichweite, Zu Fall bringen"
-            },
-            {
-                "Name": "Hacke",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "2W4",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "S",
-                "Speziell": "Zerbrechlich"
-            },
-            {
-                "Name": "Hakenlanze",
-                "Preis": "3 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "S",
-                "Speziell": "Reichweite, Zu-Fall-bringenl"
-            },
-            {
-                "Name": "Hellebarde",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Abwehr, Zu Fall bringen"
-            },
-            {
-                "Name": "Hippe",
-                "Preis": "11 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "11 Pfd.",
-                "Art": "H",
-                "Speziell": "Abwehr, Entwaffnen, Reichweite, siehe Text"
-            },
-            {
-                "Name": "Krummschwert",
-                "Preis": "75 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "2W4",
-                "Kritischer Treffer": "18-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Lanze",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "S",
-                "Speziell": "Reichweite"
-            },
-            {
-                "Name": "Luzerner Hammer",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W10",
-                "Schaden (M)": "1W12",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "W oder S",
-                "Speziell": "Abwehr, Reichweite, siehe Text"
-            },
-            {
-                "Name": "Mönchsspaten",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W4/1W4",
-                "Schaden (M)": "1W6/1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "H oder S oder W",
-                "Speziell": "Doppel, Mönch"
-            },
-            {
-                "Name": "Naginata",
-                "Preis": "35 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "-",
-                "Gewicht": "9 Pfd.",
-                "Art": "H",
-                "Speziell": "Reichweite"
-            },
-            {
-                "Name": "Nodachi",
-                "Preis": "60 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "18-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Abwehr"
-            },
-            {
-                "Name": "Ogerhaken",
-                "Preis": "24 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "S",
-                "Speziell": "Zu Fall bringen"
-            },
-            {
-                "Name": "Pferdeschlächter",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Reichweite, Zu-Fall-bringen"
-            },
-            {
-                "Name": "Rabenschnabel",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "W oder H",
-                "Speziell": "Abwehr, Reichweite, siehe Text"
-            },
-            {
-                "Name": "Ranseur",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "2W4",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "S",
-                "Speziell": "Entwaffnen, Reichweite"
-            },
-            {
-                "Name": "Rhomphaia",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "2W4",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Abwehr, Zerbrechlich, Reichweite"
-            },
-            {
-                "Name": "Sansetsukon",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "W",
-                "Speziell": "Blockierend, Entwaffnen, Mönch"
-            },
-            {
-                "Name": "Schwerer Streitflegel",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "W",
-                "Speziell": "Entwaffnen, Zu Fall bringen"
-            },
-            {
-                "Name": "Sense",
-                "Preis": "18 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "2W4",
-                "Kritischer Treffer": "x4",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Zu Fall bringen"
-            },
-            {
-                "Name": "Tepoztopilli",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Zerbrechlich, Reichweite"
-            },
-            {
-                "Name": "Tigergabel",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "S",
-                "Speziell": "Abwehr, Mönch"
-            },
-            {
-                "Name": "Zweihänder",
-                "Preis": "50 GM",
-                "Schaden (K)": "1W10",
-                "Schaden (M)": "2W6",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Zweihändige Axt",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W10",
-                "Schaden (M)": "1W12",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Zweihändige Keule",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            }
-        ],
-        "Fernkampfwaffen": [
-            {
-                "Name": "Amentum",
-                "Preis": "-",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "15 m",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Atlatl",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "15 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Atlatlwurfpfeil",
-                "Preis": "1 GM",
-                "Schaden (K)": "-",
-                "Schaden (M)": "2 Pfd.",
-                "Kritischer Treffer": "-"
-            },
-            {
-                "Name": "Chakram",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "9 m",
-                "Gewicht": "1 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Hunga-Munga",
-                "Preis": "4 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "4,50 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kompositbogen, kurz",
-                "Preis": "75 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "21 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kompositbogen, lang",
-                "Preis": "100 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "33 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kurzbogen",
-                "Preis": "30 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "18 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Langbogen",
-                "Preis": "75 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "30 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Pfeilröhre",
-                "Preis": "3 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "12 m",
-                "Gewicht": "1/2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Pilum",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "6 m",
-                "Gewicht": "4 Pfd.",
-                "Art": "S",
-                "Speziell": "siehe Text"
-            },
-            {
-                "Name": "Vergiftete Sand-Röhre",
-                "Preis": "1 GM",
-                "Schaden (K)": "Speziell",
-                "Schaden (M)": "-",
-                "Kritischer Treffer": "1 Pfd.",
-                "Grundreichweite": "-"
-            }
-        ]
-    },
-    "Exotische Waffen":{
-        "Leichte Waffen": [
-            {
-                "Name": "Aklys",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "6 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "W",
-                "Speziell": "Schaukampf, Zu-Fall-bringen"
-            },
-            {
-                "Name": "Dan Bong",
-                "Preis": "1 SM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "-",
-                "Art": "W",
-                "Speziell": "Blockierend, Mönch, siehe Text"
-            },
-            {
-                "Name": "Emeistecher",
-                "Preis": "3 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "S",
-                "Art": "Mönch, siehe Text"
-            },
-            {
-                "Name": "Kama",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "Mönch, Zu Fall bringen"
-            },
-            {
-                "Name": "Klingenbrecherdolch",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "H",
-                "Speziell": "Entwaffnen, siehe Text"
-            },
-            {
-                "Name": "Knöchelaxt",
-                "Preis": "9 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "Mönch, Schaukampf"
-            },
-            {
-                "Name": "Kriegsfächer",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "S",
-                "Art": "Ablenkend, Mönch"
-            },
-            {
-                "Name": "Madu, Stahl",
-                "Preis": "40 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Madu, Leder",
-                "Preis": "40 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "5 Pfd.",
-                "Art": "S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Nunchaku",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "W",
-                "Speziell": "Entwaffnen, Mönch"
-            },
-            {
-                "Name": "Pata",
-                "Preis": "14 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Quadrens",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Sai",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "W",
-                "Speziell": "Entwaffnen, Mönch"
-            },
-            {
-                "Name": "Siangham",
-                "Preis": "3 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "Mönch"
-            },
-            {
-                "Name": "Sica",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Tekko-Kagi (Eisenklaue)",
-                "Preis": "2 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "S",
-                "Art": "Entwaffnen, siehe Text"
-            },
-            {
-                "Name": "Wakizashi",
-                "Preis": "35 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "18-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Tödlich"
-            }
-        ],
-        "Einhandwaffen": [
-            {
-                "Name": "Bastardschwert",
-                "Preis": "35 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Falcata",
-                "Preis": "18 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x3",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Hakenaxt",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "7 Pfd.",
-                "Art": "H",
-                "Speziell": "Entwaffnen, Schaukampf, Zu-Fall-bringen"
-            },
-            {
-                "Name": "Katana",
-                "Preis": "50 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "18-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "H",
-                "Speziell": "Tödlich"
-            },
-            {
-                "Name": "Kopesh",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "H",
-                "Speziell": "Zu Fall bringen"
-            },
-            {
-                "Name": "Neunteilige Peitsche",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "W",
-                "Speziell": "Blockierend, Ablenkend, Mönch, Zu-Fall-bringen"
-            },
-            {
-                "Name": "Peitsche",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W2",
-                "Schaden (M)": "1W3",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "Entwaffnen, Nicht tödlich, Reichweite, Zu Fall bringen"
-            },
-            {
-                "Name": "Rhokaschwert",
-                "Preis": "25 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "18-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schotel",
-                "Preis": "30 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "S",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Skorpionpeitsche",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "H",
-                "Speziell": "Schaukampf"
-            },
-            {
-                "Name": "Taiaha",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W8/1W4",
-                "Schaden (M)": "1W10/1W6",
-                "Kritischer Treffer": "×3/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "W oder S",
-                "Speziell": "Doppel"
-            },
-            {
-                "Name": "Tempelschwert",
-                "Preis": "30 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "H",
-                "Speziell": "Mönch, Zu Fall bringen"
-            },
-            {
-                "Name": "Urumi",
-                "Preis": "30 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "18-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "H",
-                "Speziell": "Ablenkend"
-            },
-            {
-                "Name": "Wahaika",
-                "Preis": "3 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "W",
-                "Speziell": "Entwaffnen"
-            },
-            {
-                "Name": "Zahnsäbel",
-                "Preis": "35 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "2 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Zweihandterbutje",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/×2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "H",
-                "Speziell": "Zerbrechlich"
-            },
-            {
-                "Name": "Zwergische Streitaxt",
-                "Preis": "30 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "8 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            }
-        ],
-        "Zweihandwaffen": [
-            {
-                "Name": "Bo-Stab",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "W",
-                "Speziell": "Blockierend, Doppel, Mönch"
-            },
-            {
-                "Name": "Doppelgehstockkatana",
-                "Preis": "50 GM",
-                "Schaden (K)": "1W4/1W4",
-                "Schaden (M)": "1W6/1W6",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "W",
-                "Speziell": "Doppel"
-            },
-            {
-                "Name": "Doppelkettenkama",
-                "Preis": "8 GM",
-                "Schaden (K)": "1W4/1W4",
-                "Schaden (M)": "1W6/1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "4 Pfd.",
-                "Art": "H",
-                "Speziell": "Doppel, Mönch, Reichweite, Zu-Fall-bringen"
-            },
-            {
-                "Name": "Doppelklingenschwert",
-                "Preis": "100 GM",
-                "Schaden (K)": "1W6/1W6",
-                "Schaden (M)": "1W8/1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "H",
-                "Speziell": "Doppel"
-            },
-            {
-                "Name": "Elf. Krummschwert",
-                "Preis": "80 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "18-20/x2",
-                "Grundreichweite": "-",
-                "Gewicht": "7 Pfd.",
-                "Art": "H",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Fliegende Klinge",
-                "Preis": "40 GM",
-                "Schaden (K)": "1W10",
-                "Schaden (M)": "1W12",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "H",
-                "Speziell": "Schaukampf, Reichweite"
-            },
-            {
-                "Name": "Gnomischer Hakenhammer",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W6/1W4",
-                "Schaden (M)": "1W8/1W6",
-                "Kritischer Treffer": "x3/x4",
-                "Grundreichweite": "-",
-                "Gewicht": "6 Pfd.",
-                "Art": "S oder W",
-                "Speziell": "Doppel, Zu Fall bringen"
-            },
-            {
-                "Name": "Harpune",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "3 m",
-                "Gewicht": "16 Pfd.",
-                "Art": "S",
-                "Speziell": "Zerbrechlich, Ringkampf (siehe Beschreibung)"
-            },
-            {
-                "Name": "Kettenspeer",
-                "Preis": "15 GM",
-                "Schaden (K)": "1W4/1W4",
-                "Schaden (M)": "1W6/1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "13 Pfd.",
-                "Art": "H und S",
-                "Speziell": "Zu Fall bringen"
-            },
-            {
-                "Name": "Kusarigama (Sichel und Kette)",
-                "Preis": "12 GM",
-                "Schaden (K)": "1W2/1W4",
-                "Schaden (M)": "1W3/1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "3 Pfd.",
-                "Art": "H oder W",
-                "Speziell": "Doppel, Mönch, Reichweite, Zu-Fall-bringen, Ringkampf"
-            },
-            {
-                "Name": "Kyoketsu-Shoge",
-                "Preis": "6 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "6m",
-                "Gewicht": "1 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Entwaffnen, Ringkampf, Mönch, Reichweite"
-            },
-            {
-                "Name": "Menschenfänger",
-                "Preis": "15 GM",
-                "Schaden (K)": "1",
-                "Schaden (M)": "1W2",
-                "Kritischer Treffer": "-",
-                "Grundreichweite": "10 Pfd.",
-                "Gewicht": "S",
-                "Art": "Reichweite, siehe Text"
-            },
-            {
-                "Name": "Meteor-Hammer",
-                "Preis": "10 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "W",
-                "Speziell": "Reichweite, Zu-Fall-bringen"
-            },
-            {
-                "Name": "Orkische Doppelaxt",
-                "Preis": "60 GM",
-                "Schaden (K)": "1W6/1W6",
-                "Schaden (M)": "1W8/1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "15 Pfd.",
-                "Art": "H",
-                "Speziell": "Doppel"
-            },
-            {
-                "Name": "Schreckensflegel",
-                "Preis": "90 GM",
-                "Schaden (K)": "1W6/1W6",
-                "Schaden (M)": "1W8/1W8",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "—",
-                "Gewicht": "10 Pfd.",
-                "Art": "W",
-                "Speziell": "Doppel, Entwaffnen, Zu Fall bringen"
-            },
-            {
-                "Name": "Schwert, Siebenzweigiges",
-                "Preis": "50 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "-",
-                "Gewicht": "7 Pfd.",
-                "Art": "H",
-                "Speziell": "Entwaffnen, Mönch"
-            },
-            {
-                "Name": "Stachelkette",
-                "Preis": "25 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "2W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "S",
-                "Speziell": "Entwaffnen, Zu Fall bringen"
-            },
-            {
-                "Name": "Tetsubo",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "-",
-                "Gewicht": "10 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Zwergische Urgrosch",
-                "Preis": "50 GM",
-                "Schaden (K)": "1W6/1W4",
-                "Schaden (M)": "1W8/1W6",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "-",
-                "Gewicht": "12 Pfd.",
-                "Art": "H oder S",
-                "Speziell": "Abwehr, Doppel"
-            }
-        ],
-        "Fernkampfwaffen": [
-            {
-                "Name": "Bolas",
-                "Preis": "5 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "W",
-                "Speziell": "Nicht tödlich, Zu Fall bringen"
-            },
-            {
-                "Name": "Bumerang",
-                "Preis": "3 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "9 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "W",
-                "Speziell": "siehe Text"
-            },
-            {
-                "Name": "Doppelarmbrust",
-                "Preis": "300 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "24 m",
-                "Gewicht": "18 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Fangnetz",
-                "Preis": "30 GM",
-                "Schaden (K)": "siehe Text",
-                "Schaden (M)": "-",
-                "Kritischer Treffer": "3 m",
-                "Grundreichweite": "10 Pfd.",
-                "Gewicht": "S",
-                "Art": "Zu-Fall-bringen, siehe Text"
-            },
-            {
-                "Name": "Halblingsschleuderstab",
-                "Preis": "20 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "x3",
-                "Grundreichweite": "24 m",
-                "Gewicht": "3 Pfd.",
-                "Art": "W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Handarmbrust",
-                "Preis": "100 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "9 m",
-                "Gewicht": "2 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kestros",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "15 m",
-                "Gewicht": "1 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kestroswurfpfeil (10)",
-                "Preis": "5 GM",
-                "Schaden (K)": "-",
-                "Schaden (M)": "5 Pfd.",
-                "Kritischer Treffer": "-"
-            },
-            {
-                "Name": "Lasso",
-                "Preis": "1 SM",
-                "Schaden (K)": "-",
-                "Schaden (M)": "5 Pfd.",
-                "Kritischer Treffer": "-",
-                "Grundreichweite": "siehe Text"
-            },
-            {
-                "Name": "Leichte Repetierarmbrust",
-                "Preis": "250 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "24 m",
-                "Gewicht": "6 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Netz",
-                "Preis": "20 GM",
-                "Schaden (K)": "-",
-                "Schaden (M)": "3 m",
-                "Kritischer Treffer": "6 Pfd.",
-                "Grundreichweite": "-",
-                "Gewicht": "siehe Text"
-            },
-            {
-                "Name": "Repetierhandarmbrust",
-                "Preis": "800 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "9 m",
-                "Gewicht": "4 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Schwere Repetierarmbrust",
-                "Preis": "400 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "19-20/x2",
-                "Grundreichweite": "36 m",
-                "Gewicht": "12 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Seilpfeil",
-                "Preis": "1 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "6m",
-                "Gewicht": "-",
-                "Art": "S",
-                "Speziell": "Blockierend, Ablenkend, Mönch"
-            },
-            {
-                "Name": "Schuriken (5)",
-                "Preis": "1 GM",
-                "Schaden (K)": "1",
-                "Schaden (M)": "1W2",
-                "Kritischer Treffer": "x2",
-                "Grundreichweite": "3 m",
-                "Gewicht": "1/2 Pfd.",
-                "Art": "S",
-                "Speziell": "Mönch"
-            },
-            {
-                "Name": "Wurfschild",
-                "Preis": "+50 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "6 m",
-                "Gewicht": "-",
-                "Art": "W",
-                "Speziell": "Schaukampf, Zu-Fall-bringen"
-            }
-        ]
-    },
-    "Feuerwaffen":{
-        "Frühe Einhändige Feuerwaffen": [
-            {
-                "Name": "Bündelrevolver",
-                "Preis": "3.000 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "6 m",
-                "Fehlzündung": "1-2 (1,50 m)",
-                "Kapazität": "6",
-                "Gewicht": "5 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Dolchpistole",
-                "Preis": "740 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "3 m",
-                "Fehlzündung": "1 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "1 Pfd.",
-                "Art": "W und S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Doppelläufige Pistole",
-                "Preis": "1.750 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "6 m",
-                "Fehlzündung": "1-2 (1,50 m)",
-                "Kapazität": "2",
-                "Gewicht": "5 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Drachenpistole",
-                "Preis": "1.000 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "6 m",
-                "Fehlzündung": "1-2 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "3 Pfd.",
-                "Art": "S und W",
-                "Speziell": "Streuwaffe"
-            },
-            {
-                "Name": "Mantelpistole",
-                "Preis": "750 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "3 m",
-                "Fehlzündung": "1 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "1 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Pistole",
-                "Preis": "1.000 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "6 m",
-                "Fehlzündung": "1 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "4 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Stockdegenpistole",
-                "Preis": "775 GM",
-                "Schaden (K)": "1W3",
-                "Schaden (M)": "1W4",
-                "Kritischer Treffer": "×3",
-                "Grundreichweite": "3 m",
-                "Fehlzündung": "1 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "1 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Tartschenpistole",
-                "Preis": "750 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "3 m",
-                "Fehlzündung": "1 (1,50 m)",
-                "Kapazität": "2",
-                "Gewicht": "6 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            }
-        ],
-        "Frühe Zweihändige Feuerwaffen": [
-            {
-                "Name": "Axtmuskete",
-                "Preis": "1.600 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "9 m",
-                "Fehlzündung": "1-2 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "6 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Donnerbüchse",
-                "Preis": "2.000 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "Speziell",
-                "Fehlzündung": "1-2 (3 m)",
-                "Kapazität": "1",
-                "Gewicht": "8 Pfd.",
-                "Art": "S und W",
-                "Speziell": "Streuwaffe"
-            },
-            {
-                "Name": "Doppelhakenbüchse",
-                "Preis": "4.000 GM",
-                "Schaden (K)": "2W10",
-                "Schaden (M)": "2W12",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "15 m",
-                "Fehlzündung": "1-2 (1,50 m)",
-                "Kapazität": "2",
-                "Gewicht": "18 Pfd",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Doppelläufige Muskete",
-                "Preis": "2.500 GM",
-                "Schaden (K)": "1W10",
-                "Schaden (M)": "1W12",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "12 m",
-                "Fehlzündung": "1-3 (1,50 m)",
-                "Kapazität": "2",
-                "Gewicht": "11 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Feuerlanze",
-                "Preis": "25 GM",
-                "Schaden (K)": "1W4",
-                "Schaden (M)": "1W6",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "3 m",
-                "Fehlzündung": "1-4 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "4 Pfd.",
-                "Art": "S",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Kalverine",
-                "Preis": "4.000 GM",
-                "Schaden (K)": "2W6",
-                "Schaden (M)": "2W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "9 m",
-                "Fehlzündung": "1 (3 m)",
-                "Kapazität": "1",
-                "Gewicht": "40 Pfd.",
-                "Art": "S und W",
-                "Speziell": "Streuwaffe"
-            },
-            {
-                "Name": "Kriegshammermuskete",
-                "Preis": "1.600 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "9 m",
-                "Fehlzündung": "1-2 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "6 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Muskete",
-                "Preis": "1.500 GM",
-                "Schaden (K)": "1W10",
-                "Schaden (M)": "1W12",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "12 m",
-                "Fehlzündung": "1-2 (1,50 m)",
-                "Kapazität": "1",
-                "Gewicht": "9 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            }
-        ],
-        "Fortschrittliche Einhändige Feuerwaffen": [
-            {
-                "Name": "Revolver",
-                "Preis": "4.000 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "6 m",
-                "Fehlzündung": "1",
-                "Kapazität": "6",
-                "Gewicht": "4 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            }
-        ],
-        "Fortschrittliche Zweihändige Feuerwaffen": [
-            {
-                "Name": "Bündelgewehr",
-                "Preis": "7.000 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "24 m",
-                "Fehlzündung": "1-2",
-                "Kapazität": "4",
-                "Gewicht": "15 Pfd.",
-                "Art": "S und W",
-                "Speziell": "-"
-            },
-            {
-                "Name": "Flinte",
-                "Preis": "5.000 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "6 m",
-                "Fehlzündung": "1-2",
-                "Kapazität": "1",
-                "Gewicht": "12 Pfd.",
-                "Art": "S und W",
-                "Speziell": "Streuwaffe"
-            },
-            {
-                "Name": "Gewehr",
-                "Preis": "5.000 GM",
-                "Schaden (K)": "1W8",
-                "Schaden (M)": "1W10",
-                "Kritischer Treffer": "×4",
-                "Grundreichweite": "24 m",
-                "Fehlzündung": "1",
-                "Kapazität": "12 Pfd.",
-                "Gewicht": "S und W",
-                "Art": "-"
-            },
-            {
-                "Name": "Flinte, Doppelläufige",
-                "Preis": "7.000 GM",
-                "Schaden (K)": "1W6",
-                "Schaden (M)": "1W8",
-                "Kritischer Treffer": "×2",
-                "Grundreichweite": "6 m",
-                "Fehlzündung": "1-2",
-                "Kapazität": "2",
-                "Gewicht": "15 Pfd.",
-                "Art": "S und W",
-                "Speziell": "Streuwaffe"
-            }
-        ]
+        "Einfache Waffen":{
+            "Waffenlose Angriffe": [
+                {
+                    "Name": "Waffenloser Schlag",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "W",
+                    "Art": "Nicht tödlich"
+                }
+            ],
+            "Leichte Waffen": [
+                {
+                    "Name": "Caestus",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "W oder S",
+                    "Speziell": "Mönch, siehe Text"
+                },
+                {
+                    "Name": "Dolch",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "1",
+                    "Art": "H oder S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Holzpflock",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichter Streitkolben",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Panzerhandschuh",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schlagring",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "W",
+                    "Speziell": "Mönch, siehe Text"
+                },
+                {
+                    "Name": "Sichel",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "Zu Fall bringen"
+                },
+                {
+                    "Name": "Stachelhandschuh",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Stoßdolch",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Streitsprengel",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "W",
+                    "Speziell": "siehe Text"
+                }
+            ],
+            "Einhandwaffen": [
+                {
+                    "Name": "Keule",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "3",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kurzspeer",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Miri-Keule",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "S oder W",
+                    "Speziell": "Zerbrechlich"
+                },
+                {
+                    "Name": "Morgenstern",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schwerer Streitkolben",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "W",
+                    "Speziell": "-"
+                }
+            ],
+            "Zweihandwaffen": [
+                {
+                    "Name": "Bajonett",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kampfstab",
+                    "Schaden": "1W6/1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "W",
+                    "Speziell": "Doppel, Mönch"
+                },
+                {
+                    "Name": "Langspeer",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "9",
+                    "Art": "S",
+                    "Speziell": "Abwehr, Reichweite"
+                },
+                {
+                    "Name": "Saufeder",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "S",
+                    "Speziell": "Abwehr, siehe Text"
+                },
+                {
+                    "Name": "Speer",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "6",
+                    "Art": "S",
+                    "Speziell": "Abwehr"
+                }
+            ],
+            "Fernkampfwaffen": [
+                {
+                    "Name": "Blasrohr",
+                    "Schaden": "1W2",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichte Armbrust",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "24 m",
+                    "Gewicht": "4",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichte Unterwasserarmbrust",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "24 m",
+                    "Gewicht": "4",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schleuder",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "15 m",
+                    "Gewicht": "0",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schwere Armbrust",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "36 m",
+                    "Gewicht": "8",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schwere Unterwasserarmbrust",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "36 m",
+                    "Gewicht": "8",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Wurfpfeil",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "0,5",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Wurfspeer",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "9 m",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "-"
+                }
+            ]
+        },
+        "Kriegswaffen":{
+            "Leichte Waffen": [
+                {
+                    "Name": "Beil",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Eisenpinsel",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "-",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Gladius",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "H oder S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Hundeschnitter",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "H",
+                    "Speziell": "Zerbrechlich*"
+                },
+                {
+                    "Name": "Jutte",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1.",
+                    "Art": "W",
+                    "Speziell": "Entwaffnen, Mönch"
+                },
+                {
+                    "Name": "Kerambit",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "S",
+                    "Art": "-"
+                },
+                {
+                    "Name": "Kukri",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "18-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kurzschwert",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichter Hammer",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "2",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichter Schild",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "Speziell",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichter Stachelschild",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "Speziell",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichter Streithammer",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Lungchuan Tamo",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "1",
+                    "Art": "H oder S",
+                    "Speziell": "Mönch"
+                },
+                {
+                    "Name": "Rüstungsstacheln",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "Speziell",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schang Gou",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "H",
+                    "Speziell": "Entwaffnen oder Zu-Fall-bringen (siehe Beschreibung), Mönch"
+                },
+                {
+                    "Name": "Schmetterlingsschwert (2)",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "H",
+                    "Speziell": "Mönch"
+                },
+                {
+                    "Name": "Sternmesser",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Tonfa",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "W",
+                    "Speziell": "Blockierend, Mönch"
+                },
+                {
+                    "Name": "Totschläger",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "W",
+                    "Speziell": "Nicht tödlich"
+                },
+                {
+                    "Name": "Wurfaxt",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Wuschu-Wurfpfeil (5)",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "-",
+                    "Art": "S",
+                    "Speziell": "Mönch"
+                }
+            ],
+            "Einhandwaffen": [
+                {
+                    "Name": "Doppelhühnersäbel",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "H",
+                    "Speziell": "Entwaffnen, Mönch"
+                },
+                {
+                    "Name": "Dreizack",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "4",
+                    "Art": "S",
+                    "Speziell": "Abwehr"
+                },
+                {
+                    "Name": "Klar",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "H",
+                    "Speziell": "siehe Text"
+                },
+                {
+                    "Name": "Kriegshammer",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "5",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Krummsäbel",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "18-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Leichter Streitflegel",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "5",
+                    "Art": "W",
+                    "Speziell": "Entwaffnen, Zu Fall bringen"
+                },
+                {
+                    "Name": "Langschwert",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Neunringbreitschwert",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "H",
+                    "Speziell": "Mönch"
+                },
+                {
+                    "Name": "Rapier",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "18-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schwerer Schild",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "Speziell",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schwerer Stachelschild",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "Speziell",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schwerer Streithammer",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Scizore",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Sibat",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "2",
+                    "Art": "H oder S",
+                    "Speziell": "siehe Beschreibung"
+                },
+                {
+                    "Name": "Stockdegen",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Streitaxt",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Terbutje",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "Zerbrechlich"
+                }
+            ],
+            "Zweihandwaffen": [
+                {
+                    "Name": "Bardiche",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "14",
+                    "Art": "H",
+                    "Speziell": "Abwehr, Reichweite, siehe Text"
+                },
+                {
+                    "Name": "Dreispitzendoppelklingenschwert",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "14",
+                    "Art": "S",
+                    "Speziell": "Reichweite"
+                },
+                {
+                    "Name": "Erdspalter",
+                    "Schaden": "2W6",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "14",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Glefe",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "H",
+                    "Speziell": "Reichweite"
+                },
+                {
+                    "Name": "Glefe-Guisarme",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "H",
+                    "Speziell": "Abwehr, Reichweite, siehe Text"
+                },
+                {
+                    "Name": "Guisarme",
+                    "Schaden": "2W4",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "H",
+                    "Speziell": "Reichweite, Zu Fall bringen"
+                },
+                {
+                    "Name": "Hacke",
+                    "Schaden": "2W4",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "S",
+                    "Speziell": "Zerbrechlich"
+                },
+                {
+                    "Name": "Hakenlanze",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "S",
+                    "Speziell": "Reichweite, Zu-Fall-bringenl"
+                },
+                {
+                    "Name": "Hellebarde",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "H oder S",
+                    "Speziell": "Abwehr, Zu Fall bringen"
+                },
+                {
+                    "Name": "Hippe",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "11",
+                    "Art": "H",
+                    "Speziell": "Abwehr, Entwaffnen, Reichweite, siehe Text"
+                },
+                {
+                    "Name": "Krummschwert",
+                    "Schaden": "2W4",
+                    "Kritischer Treffer": "18-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Lanze",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "S",
+                    "Speziell": "Reichweite"
+                },
+                {
+                    "Name": "Luzerner Hammer",
+                    "Schaden": "1W12",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "W oder S",
+                    "Speziell": "Abwehr, Reichweite, siehe Text"
+                },
+                {
+                    "Name": "Mönchsspaten",
+                    "Schaden": "1W6/1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "H oder S oder W",
+                    "Speziell": "Doppel, Mönch"
+                },
+                {
+                    "Name": "Naginata",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "9",
+                    "Art": "H",
+                    "Speziell": "Reichweite"
+                },
+                {
+                    "Name": "Nodachi",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "18-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "H oder S",
+                    "Speziell": "Abwehr"
+                },
+                {
+                    "Name": "Ogerhaken",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "S",
+                    "Speziell": "Zu Fall bringen"
+                },
+                {
+                    "Name": "Pferdeschlächter",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "H oder S",
+                    "Speziell": "Reichweite, Zu-Fall-bringen"
+                },
+                {
+                    "Name": "Rabenschnabel",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "W oder H",
+                    "Speziell": "Abwehr, Reichweite, siehe Text"
+                },
+                {
+                    "Name": "Ranseur",
+                    "Schaden": "2W4",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "S",
+                    "Speziell": "Entwaffnen, Reichweite"
+                },
+                {
+                    "Name": "Rhomphaia",
+                    "Schaden": "2W4",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "H oder S",
+                    "Speziell": "Abwehr, Zerbrechlich, Reichweite"
+                },
+                {
+                    "Name": "Sansetsukon",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "W",
+                    "Speziell": "Blockierend, Entwaffnen, Mönch"
+                },
+                {
+                    "Name": "Schwerer Streitflegel",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "W",
+                    "Speziell": "Entwaffnen, Zu Fall bringen"
+                },
+                {
+                    "Name": "Sense",
+                    "Schaden": "2W4",
+                    "Kritischer Treffer": "x4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "H oder S",
+                    "Speziell": "Zu Fall bringen"
+                },
+                {
+                    "Name": "Tepoztopilli",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "H oder S",
+                    "Speziell": "Zerbrechlich, Reichweite"
+                },
+                {
+                    "Name": "Tigergabel",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "S",
+                    "Speziell": "Abwehr, Mönch"
+                },
+                {
+                    "Name": "Zweihänder",
+                    "Schaden": "2W6",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Zweihändige Axt",
+                    "Schaden": "1W12",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Zweihändige Keule",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "W",
+                    "Speziell": "-"
+                }
+            ],
+            "Fernkampfwaffen": [
+                {
+                    "Name": "Amentum",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "15 m",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Atlatl",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "15 m",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Atlatlwurfpfeil",
+                    "Schaden": "-",
+                    "Kritischer Treffer": "2",
+                    "Grundreichweite": "-"
+                },
+                {
+                    "Name": "Chakram",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "9 m",
+                    "Gewicht": "1",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Hunga-Munga",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "4,50 m",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kompositbogen, kurz",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "21 m",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kompositbogen, lang",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "33 m",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kurzbogen",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "18 m",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Langbogen",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "30 m",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Pfeilröhre",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "12 m",
+                    "Gewicht": "0,5",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Pilum",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "4",
+                    "Art": "S",
+                    "Speziell": "siehe Text"
+                },
+                {
+                    "Name": "Vergiftete Sand-Röhre",
+                    "Schaden": "Speziell",
+                    "Kritischer Treffer": "-",
+                    "Grundreichweite": "1",
+                    "Gewicht": "-"
+                }
+            ]
+        },
+        "Exotische Waffen":{
+            "Leichte Waffen": [
+                {
+                    "Name": "Aklys",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "2",
+                    "Art": "W",
+                    "Speziell": "Schaukampf, Zu-Fall-bringen"
+                },
+                {
+                    "Name": "Dan Bong",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "-",
+                    "Art": "W",
+                    "Speziell": "Blockierend, Mönch, siehe Text"
+                },
+                {
+                    "Name": "Emeistecher",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "S",
+                    "Art": "Mönch, siehe Text"
+                },
+                {
+                    "Name": "Kama",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "Mönch, Zu Fall bringen"
+                },
+                {
+                    "Name": "Klingenbrecherdolch",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "H",
+                    "Speziell": "Entwaffnen, siehe Text"
+                },
+                {
+                    "Name": "Knöchelaxt",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "Mönch, Schaukampf"
+                },
+                {
+                    "Name": "Kriegsfächer",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "S",
+                    "Art": "Ablenkend, Mönch"
+                },
+                {
+                    "Name": "Madu, Stahl",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Madu, Leder",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "5",
+                    "Art": "S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Nunchaku",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "W",
+                    "Speziell": "Entwaffnen, Mönch"
+                },
+                {
+                    "Name": "Pata",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Quadrens",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Sai",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "W",
+                    "Speziell": "Entwaffnen, Mönch"
+                },
+                {
+                    "Name": "Siangham",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "Mönch"
+                },
+                {
+                    "Name": "Sica",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Tekko-Kagi (Eisenklaue)",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "S",
+                    "Art": "Entwaffnen, siehe Text"
+                },
+                {
+                    "Name": "Wakizashi",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "18-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H oder S",
+                    "Speziell": "Tödlich"
+                }
+            ],
+            "Einhandwaffen": [
+                {
+                    "Name": "Bastardschwert",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Falcata",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Hakenaxt",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "7",
+                    "Art": "H",
+                    "Speziell": "Entwaffnen, Schaukampf, Zu-Fall-bringen"
+                },
+                {
+                    "Name": "Katana",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "18-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "H",
+                    "Speziell": "Tödlich"
+                },
+                {
+                    "Name": "Kopesh",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "H",
+                    "Speziell": "Zu Fall bringen"
+                },
+                {
+                    "Name": "Neunteilige Peitsche",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "W",
+                    "Speziell": "Blockierend, Ablenkend, Mönch, Zu-Fall-bringen"
+                },
+                {
+                    "Name": "Peitsche",
+                    "Schaden": "1W3",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "Entwaffnen, Nicht tödlich, Reichweite, Zu Fall bringen"
+                },
+                {
+                    "Name": "Rhokaschwert",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "18-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schotel",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "S",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Skorpionpeitsche",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "H",
+                    "Speziell": "Schaukampf"
+                },
+                {
+                    "Name": "Taiaha",
+                    "Schaden": "1W10/1W6",
+                    "Kritischer Treffer": "×3/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "W oder S",
+                    "Speziell": "Doppel"
+                },
+                {
+                    "Name": "Tempelschwert",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "H",
+                    "Speziell": "Mönch, Zu Fall bringen"
+                },
+                {
+                    "Name": "Urumi",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "18-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "H",
+                    "Speziell": "Ablenkend"
+                },
+                {
+                    "Name": "Wahaika",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "3",
+                    "Art": "W",
+                    "Speziell": "Entwaffnen"
+                },
+                {
+                    "Name": "Zahnsäbel",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "2",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Zweihandterbutje",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "H",
+                    "Speziell": "Zerbrechlich"
+                },
+                {
+                    "Name": "Zwergische Streitaxt",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "8",
+                    "Art": "H",
+                    "Speziell": "-"
+                }
+            ],
+            "Zweihandwaffen": [
+                {
+                    "Name": "Bo-Stab",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "W",
+                    "Speziell": "Blockierend, Doppel, Mönch"
+                },
+                {
+                    "Name": "Doppelgehstockkatana",
+                    "Schaden": "1W6/1W6",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "W",
+                    "Speziell": "Doppel"
+                },
+                {
+                    "Name": "Doppelkettenkama",
+                    "Schaden": "1W6/1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "4",
+                    "Art": "H",
+                    "Speziell": "Doppel, Mönch, Reichweite, Zu-Fall-bringen"
+                },
+                {
+                    "Name": "Doppelklingenschwert",
+                    "Schaden": "1W8/1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "H",
+                    "Speziell": "Doppel"
+                },
+                {
+                    "Name": "Elf. Krummschwert",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "18-20/x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "7",
+                    "Art": "H",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Fliegende Klinge",
+                    "Schaden": "1W12",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "H",
+                    "Speziell": "Schaukampf, Reichweite"
+                },
+                {
+                    "Name": "Gnomischer Hakenhammer",
+                    "Schaden": "1W8/1W6",
+                    "Kritischer Treffer": "x3/x4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "6",
+                    "Art": "S oder W",
+                    "Speziell": "Doppel, Zu Fall bringen"
+                },
+                {
+                    "Name": "Harpune",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "16",
+                    "Art": "S",
+                    "Speziell": "Zerbrechlich, Ringkampf (siehe Beschreibung)"
+                },
+                {
+                    "Name": "Kettenspeer",
+                    "Schaden": "1W6/1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "13",
+                    "Art": "H und S",
+                    "Speziell": "Zu Fall bringen"
+                },
+                {
+                    "Name": "Kusarigama (Sichel und Kette)",
+                    "Schaden": "1W3/1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "3",
+                    "Art": "H oder W",
+                    "Speziell": "Doppel, Mönch, Reichweite, Zu-Fall-bringen, Ringkampf"
+                },
+                {
+                    "Name": "Kyoketsu-Shoge",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "6m",
+                    "Gewicht": "1",
+                    "Art": "H oder S",
+                    "Speziell": "Entwaffnen, Ringkampf, Mönch, Reichweite"
+                },
+                {
+                    "Name": "Menschenfänger",
+                    "Schaden": "1W2",
+                    "Kritischer Treffer": "-",
+                    "Grundreichweite": "10",
+                    "Gewicht": "S",
+                    "Art": "Reichweite, siehe Text"
+                },
+                {
+                    "Name": "Meteor-Hammer",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "W",
+                    "Speziell": "Reichweite, Zu-Fall-bringen"
+                },
+                {
+                    "Name": "Orkische Doppelaxt",
+                    "Schaden": "1W8/1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "15",
+                    "Art": "H",
+                    "Speziell": "Doppel"
+                },
+                {
+                    "Name": "Schreckensflegel",
+                    "Schaden": "1W8/1W8",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "—",
+                    "Gewicht": "10",
+                    "Art": "W",
+                    "Speziell": "Doppel, Entwaffnen, Zu Fall bringen"
+                },
+                {
+                    "Name": "Schwert, Siebenzweigiges",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "7",
+                    "Art": "H",
+                    "Speziell": "Entwaffnen, Mönch"
+                },
+                {
+                    "Name": "Stachelkette",
+                    "Schaden": "2W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "S",
+                    "Speziell": "Entwaffnen, Zu Fall bringen"
+                },
+                {
+                    "Name": "Tetsubo",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "-",
+                    "Gewicht": "10",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Zwergische Urgrosch",
+                    "Schaden": "1W8/1W6",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "-",
+                    "Gewicht": "12",
+                    "Art": "H oder S",
+                    "Speziell": "Abwehr, Doppel"
+                }
+            ],
+            "Fernkampfwaffen": [
+                {
+                    "Name": "Bolas",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "2",
+                    "Art": "W",
+                    "Speziell": "Nicht tödlich, Zu Fall bringen"
+                },
+                {
+                    "Name": "Bumerang",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "9 m",
+                    "Gewicht": "3",
+                    "Art": "W",
+                    "Speziell": "siehe Text"
+                },
+                {
+                    "Name": "Doppelarmbrust",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "24 m",
+                    "Gewicht": "18",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Fangnetz",
+                    "Schaden": "siehe Text",
+                    "Kritischer Treffer": "-",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "10",
+                    "Art": "S",
+                    "Speziell": "Zu-Fall-bringen, siehe Text"
+                },
+                {
+                    "Name": "Halblingsschleuderstab",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "x3",
+                    "Grundreichweite": "24 m",
+                    "Gewicht": "3",
+                    "Art": "W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Handarmbrust",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "9 m",
+                    "Gewicht": "2",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kestros",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "15 m",
+                    "Gewicht": "1",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kestroswurfpfeil (10)",
+                    "Schaden": "-",
+                    "Kritischer Treffer": "5",
+                    "Grundreichweite": "-"
+                },
+                {
+                    "Name": "Lasso",
+                    "Schaden": "-",
+                    "Kritischer Treffer": "5",
+                    "Grundreichweite": "-",
+                    "Gewicht": "siehe Text"
+                },
+                {
+                    "Name": "Leichte Repetierarmbrust",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "24 m",
+                    "Gewicht": "6",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Netz",
+                    "Schaden": "-",
+                    "Kritischer Treffer": "3 m",
+                    "Grundreichweite": "6",
+                    "Gewicht": "-",
+                    "Art": "siehe Text"
+                },
+                {
+                    "Name": "Repetierhandarmbrust",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "9 m",
+                    "Gewicht": "4",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Schwere Repetierarmbrust",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "19-20/x2",
+                    "Grundreichweite": "36 m",
+                    "Gewicht": "12",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Seilpfeil",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "6m",
+                    "Gewicht": "-",
+                    "Art": "S",
+                    "Speziell": "Blockierend, Ablenkend, Mönch"
+                },
+                {
+                    "Name": "Schuriken (5)",
+                    "Schaden": "1W2",
+                    "Kritischer Treffer": "x2",
+                    "Grundreichweite": "3 m",
+                    "Gewicht": "0,5",
+                    "Art": "S",
+                    "Speziell": "Mönch"
+                },
+                {
+                    "Name": "Wurfschild",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "6 m",
+                    "Gewicht": "-",
+                    "Art": "W",
+                    "Speziell": "Schaukampf, Zu-Fall-bringen"
+                }
+            ]
+        },
+        "Feuerwaffen":{
+            "Frühe EinhÃ¤ndige Feuerwaffen": [
+                {
+                    "Name": "Bündelrevolver",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "6 m",
+                    "Fehlzündung": "1-2 (1,50 m)",
+                    "Kapazität": "6",
+                    "Gewicht": "5",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Dolchpistole",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "3 m",
+                    "Fehlzündung": "1 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "W und S",
+                    "Art": "-"
+                },
+                {
+                    "Name": "Doppelläufige Pistole",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "6 m",
+                    "Fehlzündung": "1-2 (1,50 m)",
+                    "Kapazität": "2",
+                    "Gewicht": "5",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Drachenpistole",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "6 m",
+                    "Fehlzündung": "1-2 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "3",
+                    "Art": "S und W",
+                    "Speziell": "Streuwaffe"
+                },
+                {
+                    "Name": "Mantelpistole",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "3 m",
+                    "Fehlzündung": "1 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "S und W",
+                    "Art": "-"
+                },
+                {
+                    "Name": "Pistole",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "6 m",
+                    "Fehlzündung": "1 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "4",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Stockdegenpistole",
+                    "Schaden": "1W4",
+                    "Kritischer Treffer": "×3",
+                    "Grundreichweite": "3 m",
+                    "Fehlzündung": "1 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "S und W",
+                    "Art": "-"
+                },
+                {
+                    "Name": "Tartschenpistole",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "3 m",
+                    "Fehlzündung": "1 (1,50 m)",
+                    "Kapazität": "2",
+                    "Gewicht": "6",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                }
+            ],
+            "Frühe ZweihÃ¤ndige Feuerwaffen": [
+                {
+                    "Name": "Axtmuskete",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "9 m",
+                    "Fehlzündung": "1-2 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "6",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Donnerbüchse",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "Speziell",
+                    "Fehlzündung": "1-2 (3 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "8",
+                    "Art": "S und W",
+                    "Speziell": "Streuwaffe"
+                },
+                {
+                    "Name": "Doppelhakenbüchse",
+                    "Schaden": "2W12",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "15 m",
+                    "Fehlzündung": "1-2 (1,50 m)",
+                    "Kapazität": "2",
+                    "Gewicht": "18",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Doppelläufige Muskete",
+                    "Schaden": "1W12",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "12 m",
+                    "Fehlzündung": "1-3 (1,50 m)",
+                    "Kapazität": "2",
+                    "Gewicht": "11",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Feuerlanze",
+                    "Schaden": "1W6",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "3 m",
+                    "Fehlzündung": "1-4 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "4",
+                    "Art": "S",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Kalverine",
+                    "Schaden": "2W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "9 m",
+                    "Fehlzündung": "1 (3 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "40",
+                    "Art": "S und W",
+                    "Speziell": "Streuwaffe"
+                },
+                {
+                    "Name": "Kriegshammermuskete",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "9 m",
+                    "Fehlzündung": "1-2 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "6",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Muskete",
+                    "Schaden": "1W12",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "12 m",
+                    "Fehlzündung": "1-2 (1,50 m)",
+                    "Kapazität": "1",
+                    "Gewicht": "9",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                }
+            ],
+            "Fortschrittliche EinhÃ¤ndige Feuerwaffen": [
+                {
+                    "Name": "Revolver",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "6 m",
+                    "Fehlzündung": "1",
+                    "Kapazität": "6",
+                    "Gewicht": "4",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                }
+            ],
+            "Fortschrittliche ZweihÃ¤ndige Feuerwaffen": [
+                {
+                    "Name": "Bündelgewehr",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "24 m",
+                    "Fehlzündung": "1-2",
+                    "Kapazität": "4",
+                    "Gewicht": "15",
+                    "Art": "S und W",
+                    "Speziell": "-"
+                },
+                {
+                    "Name": "Flinte",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "6 m",
+                    "Fehlzündung": "1-2",
+                    "Kapazität": "1",
+                    "Gewicht": "12",
+                    "Art": "S und W",
+                    "Speziell": "Streuwaffe"
+                },
+                {
+                    "Name": "Gewehr",
+                    "Schaden": "1W10",
+                    "Kritischer Treffer": "×4",
+                    "Grundreichweite": "24 m",
+                    "Fehlzündung": "1",
+                    "Kapazität": "12",
+                    "Gewicht": "S und W",
+                    "Art": "-"
+                },
+                {
+                    "Name": "Flinte, Doppelläufige",
+                    "Schaden": "1W8",
+                    "Kritischer Treffer": "×2",
+                    "Grundreichweite": "6 m",
+                    "Fehlzündung": "1-2",
+                    "Kapazität": "2",
+                    "Gewicht": "15",
+                    "Art": "S und W",
+                    "Speziell": "Streuwaffe"
+                }
+            ]
+        }
     }
-}

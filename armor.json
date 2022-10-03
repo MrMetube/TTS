@@ -1,502 +1,367 @@
 {
-    "Leichte Rüstungen": [
-        {
-            "Name": "Gesteppter Waffenrock",
-            "Preis": "100 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "8",
-            "Rüstungsmalus": "0",
-            "Chance für arkane Zauberpatzer": "10,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "15 Pfd."
-        },
-        {
-            "Name": "Haramaki",
-            "Preis": "3 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "0",
-            "Chance für arkane Zauberpatzer": "0,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "1 Pfd."
-        },
-        {
-            "Name": "Waffenrock",
-            "Preis": "5 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "8",
-            "Rüstungsmalus": "0",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "10 Pfd."
-        },
-        {
-            "Name": "Zeremonielle Seidenrüstung",
-            "Preis": "30 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "0",
-            "Chance für arkane Zauberpatzer": "0,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "4 Pfd."
-        },
-        {
-            "Name": "Lamellarbrustharnisch",
-            "Preis": "15 GM",
-            "Rüstungs-/Schildbonus": "2",
-            "Max. GE-Bonus": "4",
-            "Rüstungsmalus": "0",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "8 Pfd."
-        },
-        {
-            "Name": "Lederrüstung",
-            "Preis": "10 GM",
-            "Rüstungs-/Schildbonus": "2",
-            "Max. GE-Bonus": "6",
-            "Rüstungsmalus": "0",
-            "Chance für arkane Zauberpatzer": "10,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "15 Pfd."
-        },
-        {
-            "Name": "Beschlagene Lederrüstung",
-            "Preis": "25 GM",
-            "Rüstungs-/Schildbonus": "3",
-            "Max. GE-Bonus": "5",
-            "Rüstungsmalus": "-1",
-            "Chance für arkane Zauberpatzer": "15,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "20 Pfd."
-        },
-        {
-            "Name": "Holzrüstung",
-            "Preis": "20 GM",
-            "Rüstungs-/Schildbonus": "3",
-            "Max. GE-Bonus": "-1",
-            "Rüstungsmalus": "15,00 %",
-            "Chance für arkane Zauberpatzer": "9 m",
-            "9 m": "6 m",
-            "6 m": "25 Pfd."
-        },
-        {
-            "Name": "Paraderüstung",
-            "Preis": "25 GM",
-            "Rüstungs-/Schildbonus": "3",
-            "Max. GE-Bonus": "5",
-            "Rüstungsmalus": "-1",
-            "Chance für arkane Zauberpatzer": "15,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "20 Pfd."
-        },
-        {
-            "Name": "Kettenhemd",
-            "Preis": "100 GM",
-            "Rüstungs-/Schildbonus": "4",
-            "Max. GE-Bonus": "-2",
-            "Rüstungsmalus": "20,00 %",
-            "Chance für arkane Zauberpatzer": "9 m",
-            "9 m": "6 m",
-            "6 m": "25 Pfd."
-        },
-        {
-            "Name": "Lamellar-Rüstung (Leder)",
-            "Preis": "60 GM",
-            "Rüstungs-/Schildbonus": "4",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "20,00 %",
-            "9 m": "9 m",
-            "6 m": "6 m",
-            "Gewicht": "25 Pfd."
-        }
-    ],
-    "Mittelschwere Rüstungen": [
-        {
-            "Name": "Fellrüstung",
-            "Preis": "15 GM",
-            "Rüstungs-/Schildbonus": "4",
-            "Max. GE-Bonus": "-3",
-            "Rüstungsmalus": "20,00 %",
-            "Chance für arkane Zauberpatzer": "6 m",
-            "9 m": "4,50 m",
-            "6 m": "25 Pfd."
-        },
-        {
-            "Name": "Gepanzerter Mantel",
-            "Preis": "50 GM",
-            "Rüstungs-/Schildbonus": "4",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "20,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "20 Pfd."
-        },
-        {
-            "Name": "Do-maru",
-            "Preis": "200 GM",
-            "Rüstungs-/Schildbonus": "5",
-            "Max. GE-Bonus": "4",
-            "Rüstungsmalus": "-4",
-            "Chance für arkane Zauberpatzer": "25,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "30 Pfd."
-        },
-        {
-            "Name": "Kikko-Rüstung",
-            "Preis": "30 GM",
-            "Rüstungs-/Schildbonus": "5",
-            "Max. GE-Bonus": "4",
-            "Rüstungsmalus": "-3",
-            "Chance für arkane Zauberpatzer": "20,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "25 Pfd."
-        },
-        {
-            "Name": "Lamellar-Rüstung (Horn)",
-            "Preis": "100 GM",
-            "Rüstungs-/Schildbonus": "5",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-4",
-            "Chance für arkane Zauberpatzer": "25,00 %",
-            "9 m": "6 m",
-            "6 m": "4,5 m",
-            "Gewicht": "30 Pfd."
-        },
-        {
-            "Name": "Schuppenpanzer",
-            "Preis": "50 GM",
-            "Rüstungs-/Schildbonus": "5",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-4",
-            "Chance für arkane Zauberpatzer": "25,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "30 Pfd."
-        },
-        {
-            "Name": "Behände Brustplatte",
-            "Preis": "400 GM",
-            "Rüstungs-/Schildbonus": "6",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-4",
-            "Chance für arkane Zauberpatzer": "25,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "25 Pfd."
-        },
-        {
-            "Name": "Bergmusterrüstung",
-            "Preis": "250 GM",
-            "Rüstungs-/Schildbonus": "6",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-4",
-            "Chance für arkane Zauberpatzer": "30,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "40 Pfd."
-        },
-        {
-            "Name": "Brustplatte",
-            "Preis": "200 GM",
-            "Rüstungs-/Schildbonus": "6",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-4",
-            "Chance für arkane Zauberpatzer": "25,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "30 Pfd."
-        },
-        {
-            "Name": "Kettenpanzer",
-            "Preis": "150 GM",
-            "Rüstungs-/Schildbonus": "6",
-            "Max. GE-Bonus": "2",
-            "Rüstungsmalus": "-5",
-            "Chance für arkane Zauberpatzer": "30,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "40 Pfd."
-        },
-        {
-            "Name": "Lamellar-Rüstung (Stahl)",
-            "Preis": "150 GM",
-            "Rüstungs-/Schildbonus": "6",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-5",
-            "Chance für arkane Zauberpatzer": "25,00 %",
-            "9 m": "6 m",
-            "6 m": "4,5 m",
-            "Gewicht": "35 Pfd."
-        },
-        {
-            "Name": "Vier-Spiegel-Rüstung",
-            "Preis": "45 GM",
-            "Rüstungs-/Schildbonus": "6",
-            "Max. GE-Bonus": "2",
-            "Rüstungsmalus": "-5",
-            "Chance für arkane Zauberpatzer": "30,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "45 Pfd."
-        }
-    ],
-    "Schwere Rüstungen": [
-        {
-            "Name": "Bänderpanzer",
-            "Preis": "250 GM",
-            "Rüstungs-/Schildbonus": "7",
-            "Max. GE-Bonus": "1",
-            "Rüstungsmalus": "-6",
-            "Chance für arkane Zauberpatzer": "35,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "35 Pfd."
-        },
-        {
-            "Name": "Kusari-Gusoku",
-            "Preis": "350 GM",
-            "Rüstungs-/Schildbonus": "7",
-            "Max. GE-Bonus": "1",
-            "Rüstungsmalus": "-7",
-            "Chance für arkane Zauberpatzer": "35,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "45 Pfd."
-        },
-        {
-            "Name": "Lamellar-Rüstung (Eisen)",
-            "Preis": "200 GM",
-            "Rüstungs-/Schildbonus": "7",
-            "Max. GE-Bonus": "0",
-            "Rüstungsmalus": "-7",
-            "Chance für arkane Zauberpatzer": "40,00 %",
-            "9 m": "6 m",
-            "6 m": "4,5 m",
-            "Gewicht": "50 Pfd."
-        },
-        {
-            "Name": "Schienenpanzer",
-            "Preis": "200 GM",
-            "Rüstungs-/Schildbonus": "7",
-            "Max. GE-Bonus": "0",
-            "Rüstungsmalus": "-7",
-            "Chance für arkane Zauberpatzer": "40,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "45 Pfd."
-        },
-        {
-            "Name": "Tatami-do",
-            "Preis": "1000 GM",
-            "Rüstungs-/Schildbonus": "7",
-            "Max. GE-Bonus": "3",
-            "Rüstungsmalus": "-6",
-            "Chance für arkane Zauberpatzer": "35,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "45 Pfd."
-        },
-        {
-            "Name": "Behänder Plattenpanzer",
-            "Preis": "850 GM",
-            "Rüstungs-/Schildbonus": "8",
-            "Max. GE-Bonus": "0",
-            "Rüstungsmalus": "-7",
-            "Chance für arkane Zauberpatzer": "40,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "55 Pfd."
-        },
-        {
-            "Name": "Lamellar-Rüstung (Stein)",
-            "Preis": "500 GM",
-            "Rüstungs-/Schildbonus": "8",
-            "Max. GE-Bonus": "0",
-            "Rüstungsmalus": "-7",
-            "Chance für arkane Zauberpatzer": "40,00 %",
-            "9 m": "6 m",
-            "6 m": "4,5 m",
-            "Gewicht": "45 Pfd."
-        },
-        {
-            "Name": "O-yoroi",
-            "Preis": "1700 GM",
-            "Rüstungs-/Schildbonus": "8",
-            "Max. GE-Bonus": "2",
-            "Rüstungsmalus": "-6",
-            "Chance für arkane Zauberpatzer": "35,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "45 Pfd."
-        },
-        {
-            "Name": "Plattenpanzer",
-            "Preis": "600 GM",
-            "Rüstungs-/Schildbonus": "8",
-            "Max. GE-Bonus": "0",
-            "Rüstungsmalus": "-7",
-            "Chance für arkane Zauberpatzer": "40,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "50 Pfd."
-        },
-        {
-            "Name": "Ritterrüstung",
-            "Preis": "1500 GM",
-            "Rüstungs-/Schildbonus": "9",
-            "Max. GE-Bonus": "1",
-            "Rüstungsmalus": "-6",
-            "Chance für arkane Zauberpatzer": "35,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "50 Pfd."
-        },
-        {
-            "Name": "Steinplatte",
-            "Preis": "1.800 GM",
-            "Rüstungs-/Schildbonus": "9",
-            "Max. GE-Bonus": "1",
-            "Rüstungsmalus": "-6",
-            "Chance für arkane Zauberpatzer": "35,00 %",
-            "9 m": "6 m",
-            "6 m": "4,50 m",
-            "Gewicht": "75 Pfd."
-        }
-    ],
-    "Schilde": [
-        {
-            "Name": "Bereitschaftsschild, Leichter Holz-",
-            "Preis": "53 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "6 Pfd."
-        },
-        {
-            "Name": "Bereitschaftsschild, Leichter Stahl-",
-            "Preis": "59 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "7 Pfd."
-        },
-        {
-            "Name": "Klar",
-            "Preis": "12 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-1",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "6 Pfd."
-        },
-        {
-            "Name": "Leichter Holzschild",
-            "Preis": "3 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-1",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "5 Pfd."
-        },
-        {
-            "Name": "Leichter Stahlschild",
-            "Preis": "9 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-1",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "6 Pfd."
-        },
-        {
-            "Name": "Madu (Leder)",
-            "Preis": "40 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "5 Pfd."
-        },
-        {
-            "Name": "Madu (Stahl)",
-            "Preis": "50 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "6 Pfd."
-        },
-        {
-            "Name": "Tartsche",
-            "Preis": "5 GM",
-            "Rüstungs-/Schildbonus": "1",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-1",
-            "Chance für arkane Zauberpatzer": "5,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "5 Pfd."
-        },
-        {
-            "Name": "Schwerer Holzschild",
-            "Preis": "7 GM",
-            "Rüstungs-/Schildbonus": "2",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "15,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "10 Pfd."
-        },
-        {
-            "Name": "Schwerer Stahlschild",
-            "Preis": "20 GM",
-            "Rüstungs-/Schildbonus": "2",
-            "Max. GE-Bonus": "-",
-            "Rüstungsmalus": "-2",
-            "Chance für arkane Zauberpatzer": "15,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "15 Pfd."
-        },
-        {
-            "Name": "Turmschild",
-            "Preis": "30 GM",
-            "Rüstungs-/Schildbonus": "4",
-            "Max. GE-Bonus": "2",
-            "Rüstungsmalus": "-10",
-            "Chance für arkane Zauberpatzer": "50,00 %",
-            "9 m": "-",
-            "6 m": "-",
-            "Gewicht": "45 Pfd."
-        }
-    ]
+        "Leichte Rüstungen": [
+            {
+                "Name": "Gesteppter Waffenrock",
+                "Rüstungsbonus": "1",
+                "Max GE": "8",
+                "Rüstungsmalus": "0",
+                "Zauberpatzer": "10,00%",
+                "Gewicht": "15"
+            },
+            {
+                "Name": "Haramaki",
+                "Rüstungsbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "0",
+                "Zauberpatzer": "0,00%",
+                "Gewicht": "1"
+            },
+            {
+                "Name": "Waffenrock",
+                "Rüstungsbonus": "1",
+                "Max GE": "8",
+                "Rüstungsmalus": "0",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "10"
+            },
+            {
+                "Name": "Zeremonielle Seidenrüstung",
+                "Rüstungsbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "0",
+                "Zauberpatzer": "0,00%",
+                "Gewicht": "4"
+            },
+            {
+                "Name": "Lamellarbrustharnisch",
+                "Rüstungsbonus": "2",
+                "Max GE": "4",
+                "Rüstungsmalus": "0",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "8"
+            },
+            {
+                "Name": "Lederrüstung",
+                "Rüstungsbonus": "2",
+                "Max GE": "6",
+                "Rüstungsmalus": "0",
+                "Zauberpatzer": "10,00%",
+                "Gewicht": "15"
+            },
+            {
+                "Name": "Beschlagene Lederrüstung",
+                "Rüstungsbonus": "3",
+                "Max GE": "5",
+                "Rüstungsmalus": "-1",
+                "Zauberpatzer": "15,00%",
+                "Gewicht": "20"
+            },
+            {
+                "Name": "Holzrüstung",
+                "Rüstungsbonus": "3",
+                "Max GE": "-1",
+                "Rüstungsmalus": "15,00%",
+                "Zauberpatzer": "25"
+            },
+            {
+                "Name": "Paraderüstung",
+                "Rüstungsbonus": "3",
+                "Max GE": "5",
+                "Rüstungsmalus": "-1",
+                "Zauberpatzer": "15,00%",
+                "Gewicht": "20"
+            },
+            {
+                "Name": "Kettenhemd",
+                "Rüstungsbonus": "4",
+                "Max GE": "-2",
+                "Rüstungsmalus": "20,00%",
+                "Zauberpatzer": "25"
+            },
+            {
+                "Name": "Lamellar-Rüstung (Leder)",
+                "Rüstungsbonus": "4",
+                "Max GE": "3",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "20,00%",
+                "Gewicht": "25"
+            }
+        ],
+        "Mittelschwere Rüstungen": [
+            {
+                "Name": "Fellrüstung",
+                "Rüstungsbonus": "4",
+                "Max GE": "-3",
+                "Rüstungsmalus": "20,00%",
+                "Zauberpatzer": "25"
+            },
+            {
+                "Name": "Gepanzerter Mantel",
+                "Rüstungsbonus": "4",
+                "Max GE": "3",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "20,00%",
+                "Gewicht": "20"
+            },
+            {
+                "Name": "Do-maru",
+                "Rüstungsbonus": "5",
+                "Max GE": "4",
+                "Rüstungsmalus": "-4",
+                "Zauberpatzer": "25,00%",
+                "Gewicht": "30"
+            },
+            {
+                "Name": "Kikko-Rüstung",
+                "Rüstungsbonus": "5",
+                "Max GE": "4",
+                "Rüstungsmalus": "-3",
+                "Zauberpatzer": "20,00%",
+                "Gewicht": "25"
+            },
+            {
+                "Name": "Lamellar-Rüstung (Horn)",
+                "Rüstungsbonus": "5",
+                "Max GE": "3",
+                "Rüstungsmalus": "-4",
+                "Zauberpatzer": "25,00%",
+                "Gewicht": "30"
+            },
+            {
+                "Name": "Schuppenpanzer",
+                "Rüstungsbonus": "5",
+                "Max GE": "3",
+                "Rüstungsmalus": "-4",
+                "Zauberpatzer": "25,00%",
+                "Gewicht": "30"
+            },
+            {
+                "Name": "Behände Brustplatte",
+                "Rüstungsbonus": "6",
+                "Max GE": "3",
+                "Rüstungsmalus": "-4",
+                "Zauberpatzer": "25,00%",
+                "Gewicht": "25"
+            },
+            {
+                "Name": "Bergmusterrüstung",
+                "Rüstungsbonus": "6",
+                "Max GE": "3",
+                "Rüstungsmalus": "-4",
+                "Zauberpatzer": "30,00%",
+                "Gewicht": "40"
+            },
+            {
+                "Name": "Brustplatte",
+                "Rüstungsbonus": "6",
+                "Max GE": "3",
+                "Rüstungsmalus": "-4",
+                "Zauberpatzer": "25,00%",
+                "Gewicht": "30"
+            },
+            {
+                "Name": "Kettenpanzer",
+                "Rüstungsbonus": "6",
+                "Max GE": "2",
+                "Rüstungsmalus": "-5",
+                "Zauberpatzer": "30,00%",
+                "Gewicht": "40"
+            },
+            {
+                "Name": "Lamellar-Rüstung (Stahl)",
+                "Rüstungsbonus": "6",
+                "Max GE": "3",
+                "Rüstungsmalus": "-5",
+                "Zauberpatzer": "25,00%",
+                "Gewicht": "35"
+            },
+            {
+                "Name": "Vier-Spiegel-Rüstung",
+                "Rüstungsbonus": "6",
+                "Max GE": "2",
+                "Rüstungsmalus": "-5",
+                "Zauberpatzer": "30,00%",
+                "Gewicht": "45"
+            }
+        ],
+        "Schwere Rüstungen": [
+            {
+                "Name": "Bänderpanzer",
+                "Rüstungsbonus": "7",
+                "Max GE": "1",
+                "Rüstungsmalus": "-6",
+                "Zauberpatzer": "35,00%",
+                "Gewicht": "35"
+            },
+            {
+                "Name": "Kusari-Gusoku",
+                "Rüstungsbonus": "7",
+                "Max GE": "1",
+                "Rüstungsmalus": "-7",
+                "Zauberpatzer": "35,00%",
+                "Gewicht": "45"
+            },
+            {
+                "Name": "Lamellar-Rüstung (Eisen)",
+                "Rüstungsbonus": "7",
+                "Max GE": "0",
+                "Rüstungsmalus": "-7",
+                "Zauberpatzer": "40,00%",
+                "Gewicht": "50"
+            },
+            {
+                "Name": "Schienenpanzer",
+                "Rüstungsbonus": "7",
+                "Max GE": "0",
+                "Rüstungsmalus": "-7",
+                "Zauberpatzer": "40,00%",
+                "Gewicht": "45"
+            },
+            {
+                "Name": "Tatami-do",
+                "Rüstungsbonus": "7",
+                "Max GE": "3",
+                "Rüstungsmalus": "-6",
+                "Zauberpatzer": "35,00%",
+                "Gewicht": "45"
+            },
+            {
+                "Name": "Behänder Plattenpanzer",
+                "Rüstungsbonus": "8",
+                "Max GE": "0",
+                "Rüstungsmalus": "-7",
+                "Zauberpatzer": "40,00%",
+                "Gewicht": "55"
+            },
+            {
+                "Name": "Lamellar-Rüstung (Stein)",
+                "Rüstungsbonus": "8",
+                "Max GE": "0",
+                "Rüstungsmalus": "-7",
+                "Zauberpatzer": "40,00%",
+                "Gewicht": "45"
+            },
+            {
+                "Name": "O-yoroi",
+                "Rüstungsbonus": "8",
+                "Max GE": "2",
+                "Rüstungsmalus": "-6",
+                "Zauberpatzer": "35,00%",
+                "Gewicht": "45"
+            },
+            {
+                "Name": "Plattenpanzer",
+                "Rüstungsbonus": "8",
+                "Max GE": "0",
+                "Rüstungsmalus": "-7",
+                "Zauberpatzer": "40,00%",
+                "Gewicht": "50"
+            },
+            {
+                "Name": "Ritterrüstung",
+                "Rüstungsbonus": "9",
+                "Max GE": "1",
+                "Rüstungsmalus": "-6",
+                "Zauberpatzer": "35,00%",
+                "Gewicht": "50"
+            },
+            {
+                "Name": "Steinplatte",
+                "Rüstungsbonus": "9",
+                "Max GE": "1",
+                "Rüstungsmalus": "-6",
+                "Zauberpatzer": "35,00%",
+                "Gewicht": "75"
+            }
+        ],
+        "Schilde": [
+            {
+                "Name": "Bereitschaftsschild, Leichter Holz-",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "6"
+            },
+            {
+                "Name": "Bereitschaftsschild, Leichter Stahl-",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "7"
+            },
+            {
+                "Name": "Klar",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-1",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "6"
+            },
+            {
+                "Name": "Leichter Holzschild",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-1",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "5"
+            },
+            {
+                "Name": "Leichter Stahlschild",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-1",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "6"
+            },
+            {
+                "Name": "Madu (Leder)",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "5"
+            },
+            {
+                "Name": "Madu (Stahl)",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "6"
+            },
+            {
+                "Name": "Tartsche",
+                "Schildbonus": "1",
+                "Max GE": "-",
+                "Rüstungsmalus": "-1",
+                "Zauberpatzer": "5,00%",
+                "Gewicht": "5"
+            },
+            {
+                "Name": "Schwerer Holzschild",
+                "Schildbonus": "2",
+                "Max GE": "-",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "15,00%",
+                "Gewicht": "10"
+            },
+            {
+                "Name": "Schwerer Stahlschild",
+                "Schildbonus": "2",
+                "Max GE": "-",
+                "Rüstungsmalus": "-2",
+                "Zauberpatzer": "15,00%",
+                "Gewicht": "15"
+            },
+            {
+                "Name": "Turmschild",
+                "Schildbonus": "4",
+                "Max GE": "2",
+                "Rüstungsmalus": "-10",
+                "Zauberpatzer": "50,00%",
+                "Gewicht": "45"
+            }
+        ]
 }
